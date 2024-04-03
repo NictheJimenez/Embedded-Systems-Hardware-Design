@@ -1,0 +1,1015 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title "RF module"
+Date "09/03/2020"
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MySymLib:ST_SPBTLE_RF M?
+U 1 1 5F2C130E
+P 3400 2200
+AR Path="/5F0F875E/5F2C130E" Ref="M?"  Part="1" 
+AR Path="/5F0F88F6/5F2C130E" Ref="M?"  Part="1" 
+AR Path="/5F33E46E/5F2C130E" Ref="M2"  Part="1" 
+F 0 "M2" H 3100 3250 50  0000 C CNN
+F 1 "ST_SPBTLE_RF" H 3200 2250 50  0000 C CNN
+F 2 "MyfootprintLib:XCVR_SPBTLE-RF" H 3400 2050 50  0000 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/spbtle-rf.pdf" H 3400 2150 50  0001 C CNN
+F 4 "ready" H 3400 2200 50  0001 C CNN "status"
+F 5 "https://s3.amazonaws.com/snapeda/datasheet/SPBTLE-RF_STMicroelectronics.pdf" H 3400 2200 50  0001 C CNN "datasheet2"
+	1    3400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F2C131A
+P 4200 1500
+AR Path="/5F0F875E/5F2C131A" Ref="C?"  Part="1" 
+AR Path="/5F0F88F6/5F2C131A" Ref="C?"  Part="1" 
+AR Path="/5F33E46E/5F2C131A" Ref="C33"  Part="1" 
+F 0 "C33" H 4315 1546 50  0000 L CNN
+F 1 "100nF" H 4315 1455 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 4238 1350 50  0001 C CNN
+F 3 "~" H 4200 1500 50  0001 C CNN
+	1    4200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F2C1320
+P 4300 1950
+AR Path="/5F0F875E/5F2C1320" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F88F6/5F2C1320" Ref="#PWR?"  Part="1" 
+AR Path="/5F33E46E/5F2C1320" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 4300 1700 50  0001 C CNN
+F 1 "GND" V 4305 1822 50  0000 R CNN
+F 2 "" H 4300 1950 50  0001 C CNN
+F 3 "" H 4300 1950 50  0001 C CNN
+	1    4300 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F2C1326
+P 4200 1750
+AR Path="/5F0F875E/5F2C1326" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F88F6/5F2C1326" Ref="#PWR?"  Part="1" 
+AR Path="/5F33E46E/5F2C1326" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 4200 1500 50  0001 C CNN
+F 1 "GND" H 4205 1577 50  0000 C CNN
+F 2 "" H 4200 1750 50  0001 C CNN
+F 3 "" H 4200 1750 50  0001 C CNN
+	1    4200 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1350 2550 1350
+Wire Wire Line
+	2900 1450 2550 1450
+Wire Wire Line
+	2900 1550 2550 1550
+Wire Wire Line
+	2900 1650 2550 1650
+Wire Wire Line
+	2900 1750 2550 1750
+Wire Wire Line
+	2900 1950 2550 1950
+Text GLabel 2550 1350 0    50   Input ~ 0
+INTERNAL-SPI3_SCK
+Text GLabel 2550 1450 0    50   Output ~ 0
+INTERNAL-SPI3_MISO
+Text GLabel 2550 1550 0    50   Input ~ 0
+INTERNAL-SPI3_MOSI
+Text GLabel 2550 1650 0    50   Input ~ 0
+SPBTLE-RF-SPI3_CSN
+Text GLabel 2550 1750 0    50   Output ~ 0
+SPBTLE-RF-IRQ_EXTI6
+Text GLabel 2550 1950 0    50   Input ~ 0
+SPBTLE-RF-RST
+$Comp
+L MySymLib:SPSGRF M1
+U 1 1 5F2C40F2
+P 3350 3450
+F 0 "M1" H 3150 4200 50  0000 C CNN
+F 1 "SPSGRF" H 3200 2850 50  0000 C CNN
+F 2 "MyfootprintLib:XCVR_SPSGRF-915" H 3150 4200 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/SPSGRF-915/STMicroelectronics/datasheet/" H 3150 4200 50  0001 C CNN
+	1    3350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR071
+U 1 1 5F2C5020
+P 4150 3300
+F 0 "#PWR071" H 4150 3050 50  0001 C CNN
+F 1 "GND" H 4155 3127 50  0000 C CNN
+F 2 "" H 4150 3300 50  0001 C CNN
+F 3 "" H 4150 3300 50  0001 C CNN
+	1    4150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR068
+U 1 1 5F2C5442
+P 4000 3850
+F 0 "#PWR068" H 4000 3600 50  0001 C CNN
+F 1 "GND" V 4005 3722 50  0000 R CNN
+F 2 "" H 4000 3850 50  0001 C CNN
+F 3 "" H 4000 3850 50  0001 C CNN
+	1    4000 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C32
+U 1 1 5F2C62C6
+P 4150 3000
+F 0 "C32" H 4265 3046 50  0000 L CNN
+F 1 "100nF" H 4265 2955 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 4188 2850 50  0001 C CNN
+F 3 "~" H 4150 3000 50  0001 C CNN
+	1    4150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2850 2550 2850
+Wire Wire Line
+	3000 2950 2550 2950
+Wire Wire Line
+	3000 3050 2550 3050
+Wire Wire Line
+	3000 3150 2550 3150
+Wire Wire Line
+	3000 3350 2550 3350
+Wire Wire Line
+	3000 3850 2600 3850
+Text GLabel 2550 2850 0    50   Input ~ 0
+INTERNAL-SPI3_SCK
+Text GLabel 2550 2950 0    50   Output ~ 0
+INTERNAL-SPI3_MISO
+Text GLabel 2550 3050 0    50   Input ~ 0
+INTERNAL-SPI3_MOSI
+Text GLabel 2550 3150 0    50   Input ~ 0
+SPSGRF-915-SPI3_CSN
+Text GLabel 2550 3350 0    50   Input ~ 0
+SPSGRF-915-GPIO3_EXTI5
+Text GLabel 2600 3850 0    50   Input ~ 0
+SPSGRF-915-SDN
+$Comp
+L MySymLib:ISM43362-M3G-L44 M3
+U 1 1 5F2CEB49
+P 8500 2400
+F 0 "M3" H 9750 3300 50  0000 C CNN
+F 1 "ISM43362-M3G-L44" H 9650 3400 50  0000 C CNN
+F 2 "MyfootprintLib:INVENTEK_ISM43362-M3G-L44-E_C2.5.0.3_SPI" H 8350 950 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/ISM43362-M3G-L44-E%20C2.5.0.3%20SPI/Inventek%20Systems/datasheet/" H 8350 950 50  0001 C CNN
+F 4 "1475-1032-ND" H 7950 750 50  0001 C CNN "Digi-Key Part Number"
+F 5 "Length 30 mm (-/+0.5 mm),Width 14.7 mm (-/+0.5 mm),Height 2.5 ± 0.2 mm,Package 44 pin LGA" H 8500 850 50  0001 C CNN "Package"
+F 6 "good fit" H 7950 650 50  0001 C CNN "note"
+F 7 "ready" H 8500 2400 50  0001 C CNN "status"
+	1    8500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR089
+U 1 1 5F2D359E
+P 9000 1300
+F 0 "#PWR089" H 9000 1050 50  0001 C CNN
+F 1 "GND" V 9005 1172 50  0000 R CNN
+F 2 "" H 9000 1300 50  0001 C CNN
+F 3 "" H 9000 1300 50  0001 C CNN
+	1    9000 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 1300 8300 1300
+Wire Wire Line
+	8300 1300 8400 1300
+Connection ~ 8300 1300
+Wire Wire Line
+	8400 1300 8500 1300
+Connection ~ 8400 1300
+Wire Wire Line
+	8500 1300 8600 1300
+Connection ~ 8500 1300
+Wire Wire Line
+	8600 1300 8700 1300
+Connection ~ 8600 1300
+Wire Wire Line
+	8700 1300 8800 1300
+Connection ~ 8700 1300
+Wire Wire Line
+	8800 1300 8900 1300
+Connection ~ 8800 1300
+Wire Wire Line
+	8900 1300 9000 1300
+Connection ~ 8900 1300
+Connection ~ 9000 1300
+$Comp
+L power:GND #PWR090
+U 1 1 5F2D6E33
+P 9800 1800
+F 0 "#PWR090" H 9800 1550 50  0001 C CNN
+F 1 "GND" V 9805 1672 50  0000 R CNN
+F 2 "" H 9800 1800 50  0001 C CNN
+F 3 "" H 9800 1800 50  0001 C CNN
+	1    9800 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 1900 9750 1900
+Wire Wire Line
+	9750 1900 9750 3750
+Wire Wire Line
+	9750 3750 7150 3750
+Wire Wire Line
+	9400 2000 9700 2000
+Wire Wire Line
+	9700 2000 9700 3600
+Wire Wire Line
+	9700 3600 7100 3600
+$Comp
+L Device:R R11
+U 1 1 5F2DE58A
+P 9300 4400
+F 0 "R11" H 9370 4446 50  0000 L CNN
+F 1 "Not Fitted (10k)" H 9000 4600 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 9230 4400 50  0001 C CNN
+F 3 "~" H 9300 4400 50  0001 C CNN
+	1    9300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5F2DEAF7
+P 9600 4400
+F 0 "R12" H 9670 4446 50  0000 L CNN
+F 1 "Not Fitted (10k)" H 9700 4600 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 9530 4400 50  0001 C CNN
+F 3 "~" H 9600 4400 50  0001 C CNN
+	1    9600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5F2DF4E5
+P 10000 4400
+F 0 "R13" H 10070 4446 50  0000 L CNN
+F 1 "Not Fitted (10k)" H 10070 4355 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 9930 4400 50  0001 C CNN
+F 3 "~" H 10000 4400 50  0001 C CNN
+	1    10000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR091
+U 1 1 5F2DFC4B
+P 10000 4650
+F 0 "#PWR091" H 10000 4400 50  0001 C CNN
+F 1 "GND" H 10005 4477 50  0000 C CNN
+F 2 "" H 10000 4650 50  0001 C CNN
+F 3 "" H 10000 4650 50  0001 C CNN
+	1    10000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 4250 9600 4050
+Wire Wire Line
+	9600 4050 10000 4050
+Wire Wire Line
+	10200 4050 10200 2400
+Wire Wire Line
+	10200 2400 9400 2400
+Wire Wire Line
+	10000 4250 10000 4050
+Connection ~ 10000 4050
+Wire Wire Line
+	10000 4050 10200 4050
+Wire Wire Line
+	8400 3400 8400 4300
+Wire Wire Line
+	8400 4300 7100 4300
+Wire Wire Line
+	8900 3400 8900 4500
+Wire Wire Line
+	8900 4500 7100 4500
+Wire Wire Line
+	9000 3400 9000 4600
+Wire Wire Line
+	9000 4600 7100 4600
+$Comp
+L Device:C C38
+U 1 1 5F32077E
+P 7500 4000
+F 0 "C38" H 7615 4046 50  0000 L CNN
+F 1 "2.2uF" H 7615 3955 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 7538 3850 50  0001 C CNN
+F 3 "~" H 7500 4000 50  0001 C CNN
+	1    7500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C39
+U 1 1 5F321013
+P 7950 4000
+F 0 "C39" H 8065 4046 50  0000 L CNN
+F 1 "100nF" H 8065 3955 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 7988 3850 50  0001 C CNN
+F 3 "~" H 7950 4000 50  0001 C CNN
+	1    7950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR084
+U 1 1 5F321780
+P 7500 4700
+F 0 "#PWR084" H 7500 4450 50  0001 C CNN
+F 1 "GND" H 7505 4527 50  0000 C CNN
+F 2 "" H 7500 4700 50  0001 C CNN
+F 3 "" H 7500 4700 50  0001 C CNN
+	1    7500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR086
+U 1 1 5F322B4F
+P 7950 4700
+F 0 "#PWR086" H 7950 4450 50  0001 C CNN
+F 1 "GND" H 7955 4527 50  0000 C CNN
+F 2 "" H 7950 4700 50  0001 C CNN
+F 3 "" H 7950 4700 50  0001 C CNN
+	1    7950 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3850 8300 3850
+Wire Wire Line
+	8300 3850 8300 3400
+Connection ~ 7950 3850
+Wire Wire Line
+	8200 3400 8300 3400
+Connection ~ 8300 3400
+$Comp
+L power:GND #PWR087
+U 1 1 5F3269A9
+P 8500 3850
+F 0 "#PWR087" H 8500 3600 50  0001 C CNN
+F 1 "GND" H 8505 3677 50  0000 C CNN
+F 2 "" H 8500 3850 50  0001 C CNN
+F 3 "" H 8500 3850 50  0001 C CNN
+	1    8500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR088
+U 1 1 5F3274D0
+P 8800 3850
+F 0 "#PWR088" H 8800 3600 50  0001 C CNN
+F 1 "GND" H 8805 3677 50  0000 C CNN
+F 2 "" H 8800 3850 50  0001 C CNN
+F 3 "" H 8800 3850 50  0001 C CNN
+	1    8800 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4250 9300 3900
+Wire Wire Line
+	9300 3900 9500 3900
+Wire Wire Line
+	9500 3900 9500 2500
+Wire Wire Line
+	9500 2500 9400 2500
+Wire Wire Line
+	7700 2900 7400 2900
+Wire Wire Line
+	7700 2800 7100 2800
+Wire Wire Line
+	7700 2700 7100 2700
+Wire Wire Line
+	7700 2600 7100 2600
+$Comp
+L Device:R R10
+U 1 1 5F3314AC
+P 7400 3050
+F 0 "R10" H 7470 3096 50  0000 L CNN
+F 1 "47k" H 7470 3005 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 7330 3050 50  0001 C CNN
+F 3 "~" H 7400 3050 50  0001 C CNN
+	1    7400 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 2900
+Wire Wire Line
+	7400 2900 7100 2900
+Wire Wire Line
+	7700 3000 7700 3500
+Wire Wire Line
+	7700 3500 7100 3500
+$Comp
+L power:GND #PWR085
+U 1 1 5F3372BA
+P 7500 1800
+F 0 "#PWR085" H 7500 1550 50  0001 C CNN
+F 1 "GND" V 7505 1672 50  0000 R CNN
+F 2 "" H 7500 1800 50  0001 C CNN
+F 3 "" H 7500 1800 50  0001 C CNN
+	1    7500 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C36
+U 1 1 5F337CE8
+P 6800 2150
+F 0 "C36" H 6915 2196 50  0000 L CNN
+F 1 "2.2uF" H 6915 2105 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 6838 2000 50  0001 C CNN
+F 3 "~" H 6800 2150 50  0001 C CNN
+	1    6800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C37
+U 1 1 5F33829F
+P 7100 2150
+F 0 "C37" H 7150 2250 50  0000 L CNN
+F 1 "100nF" H 7215 2105 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 7138 2000 50  0001 C CNN
+F 3 "~" H 7100 2150 50  0001 C CNN
+	1    7100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR080
+U 1 1 5F338826
+P 6800 2400
+F 0 "#PWR080" H 6800 2150 50  0001 C CNN
+F 1 "GND" H 6805 2227 50  0000 C CNN
+F 2 "" H 6800 2400 50  0001 C CNN
+F 3 "" H 6800 2400 50  0001 C CNN
+	1    6800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR081
+U 1 1 5F339959
+P 7100 2400
+F 0 "#PWR081" H 7100 2150 50  0001 C CNN
+F 1 "GND" H 7105 2227 50  0000 C CNN
+F 2 "" H 7100 2400 50  0001 C CNN
+F 3 "" H 7100 2400 50  0001 C CNN
+	1    7100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR083
+U 1 1 5F33FF6A
+P 7500 2000
+F 0 "#PWR083" H 7500 1750 50  0001 C CNN
+F 1 "GND" V 7450 2100 50  0000 R CNN
+F 2 "" H 7500 2000 50  0001 C CNN
+F 3 "" H 7500 2000 50  0001 C CNN
+	1    7500 2000
+	0    1    1    0   
+$EndComp
+Text Label 7550 2000 0    50   ~ 0
+TP6
+Wire Wire Line
+	7700 2100 7650 2100
+Wire Wire Line
+	7700 2200 7650 2200
+Wire Wire Line
+	7700 2300 7650 2300
+Wire Wire Line
+	7700 2400 7650 2400
+Wire Wire Line
+	7700 2500 7650 2500
+Text Label 7650 2100 0    50   ~ 0
+TP1
+Text Label 7650 2200 0    50   ~ 0
+TP2
+Text Label 7650 2300 0    50   ~ 0
+TP3
+Text Label 7650 2400 0    50   ~ 0
+TP4
+Text Label 7650 2500 0    50   ~ 0
+TP5
+Text GLabel 7100 2600 0    50   Input ~ 0
+INTERNAL-SPI3_MOSI
+Text GLabel 7100 2700 0    50   Output ~ 0
+INTERNAL-SPI3_MISO
+Text GLabel 7100 2800 0    50   Input ~ 0
+INTERNAL-SPI3_SCK
+Text GLabel 7100 2900 0    50   Input ~ 0
+ISM43362-SPI3_CSN
+Text GLabel 7100 3500 0    50   Output ~ 0
+ISM43362-DRDY_EXTI1
+Text GLabel 7100 4300 0    50   Input ~ 0
+ISM43362-WAKEUP
+Text GLabel 7100 4600 0    50   Input ~ 0
+INTERNAL-UART3_RX
+Text GLabel 7100 4500 0    50   Output ~ 0
+INTERNAL-UART3_TX
+Text GLabel 7100 3600 0    50   Input ~ 0
+ISM43362-BOOT0
+Text GLabel 7150 3750 0    50   Input ~ 0
+ISM43362-RST
+$Comp
+L MySymLib:MX25R6435F U9
+U 1 1 5F54243D
+P 2850 5650
+F 0 "U9" H 3050 6750 50  0000 C CNN
+F 1 "MX25R6435F" H 3150 5750 50  0000 C CNN
+F 2 "MyfootprintLib:MX25R6435FZAIH0_SON80P400X400X60-9N" H 2850 5650 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/MX25R6435FZAIH0/Macronix%20International/datasheet/" H 2850 5650 50  0001 C CNN
+	1    2850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C34
+U 1 1 5F552CDC
+P 4200 4900
+F 0 "C34" H 4315 4946 50  0000 L CNN
+F 1 "100nF" H 4315 4855 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 4238 4750 50  0001 C CNN
+F 3 "~" H 4200 4900 50  0001 C CNN
+	1    4200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR076
+U 1 1 5F553204
+P 4200 5300
+F 0 "#PWR076" H 4200 5050 50  0001 C CNN
+F 1 "GND" H 4205 5127 50  0000 C CNN
+F 2 "" H 4200 5300 50  0001 C CNN
+F 3 "" H 4200 5300 50  0001 C CNN
+	1    4200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR070
+U 1 1 5F5536BC
+P 3900 5300
+F 0 "#PWR070" H 3900 5050 50  0001 C CNN
+F 1 "GND" H 3905 5127 50  0000 C CNN
+F 2 "" H 3900 5300 50  0001 C CNN
+F 3 "" H 3900 5300 50  0001 C CNN
+	1    3900 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4750 2200 4750
+Wire Wire Line
+	2900 4850 2200 4850
+Wire Wire Line
+	2900 4950 2200 4950
+Wire Wire Line
+	2900 5150 2200 5150
+Wire Wire Line
+	2900 5250 2200 5250
+Wire Wire Line
+	2900 5350 2200 5350
+Text GLabel 2200 4750 0    50   Input ~ 0
+QUADSPI_NCS
+Text GLabel 2200 4850 0    50   Input ~ 0
+QUADSPI_CLK
+Text GLabel 2200 4950 0    50   BiDi ~ 0
+QUADSPI_BK1_IO0
+Text GLabel 2200 5150 0    50   BiDi ~ 0
+QUADSPI_BK1_IO1
+Text GLabel 2200 5250 0    50   BiDi ~ 0
+QUADSPI_BK1_IO2
+Text GLabel 2200 5350 0    50   BiDi ~ 0
+QUADSPI_BK1_IO3
+$Comp
+L MySymLib:LTI963EST-3.3 U10
+U 1 1 5F578D1C
+P 4750 6850
+F 0 "U10" H 2900 7650 50  0000 C CNN
+F 1 "LTI963EST-3.3" H 3050 6150 50  0000 C CNN
+F 2 "MyfootprintLib:LT1963AES8-3.3PBF-SOIC127P600X175-8N" H 4750 6850 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/LT1963AES8-3.3%23PBF/Analog%20Devices/datasheet/" H 4750 6850 50  0001 C CNN
+F 4 "I changed for LT1963AES8-3.3#PBF I need to check if it is ok" H 4750 6850 50  0001 C CNN "note"
+	1    4750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C31
+U 1 1 5F57A58E
+P 2100 6500
+F 0 "C31" H 2215 6546 50  0000 L CNN
+F 1 "10uF" H 2215 6455 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 2138 6350 50  0001 C CNN
+F 3 "~" H 2100 6500 50  0001 C CNN
+	1    2100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR066
+U 1 1 5F57AB7C
+P 2100 6900
+F 0 "#PWR066" H 2100 6650 50  0001 C CNN
+F 1 "GND" H 2105 6727 50  0000 C CNN
+F 2 "" H 2100 6900 50  0001 C CNN
+F 3 "" H 2100 6900 50  0001 C CNN
+	1    2100 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR067
+U 1 1 5F57AF82
+P 2400 7250
+F 0 "#PWR067" H 2400 7000 50  0001 C CNN
+F 1 "GND" H 2405 7077 50  0000 C CNN
+F 2 "" H 2400 7250 50  0001 C CNN
+F 3 "" H 2400 7250 50  0001 C CNN
+	1    2400 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C35
+U 1 1 5F57BB5B
+P 4600 6700
+F 0 "C35" H 4715 6746 50  0000 L CNN
+F 1 "10uF" H 4715 6655 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 4638 6550 50  0001 C CNN
+F 3 "~" H 4600 6700 50  0001 C CNN
+	1    4600 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR077
+U 1 1 5F57C140
+P 4600 7200
+F 0 "#PWR077" H 4600 6950 50  0001 C CNN
+F 1 "GND" H 4605 7027 50  0000 C CNN
+F 2 "" H 4600 7200 50  0001 C CNN
+F 3 "" H 4600 7200 50  0001 C CNN
+	1    4600 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 7050 2400 7050
+Wire Wire Line
+	2400 7050 2400 7150
+Wire Wire Line
+	2400 7150 2650 7150
+Connection ~ 2400 7150
+Wire Wire Line
+	2400 7150 2400 7250
+Wire Wire Line
+	2650 7250 2400 7250
+Connection ~ 2400 7250
+Wire Wire Line
+	2650 6650 2500 6650
+Wire Wire Line
+	2500 6650 2500 6350
+Connection ~ 2500 6350
+Wire Wire Line
+	2500 6350 2650 6350
+Wire Wire Line
+	4600 6350 4600 6550
+Wire Wire Line
+	4050 6350 4300 6350
+Wire Wire Line
+	4050 6550 4300 6550
+Wire Wire Line
+	4300 6550 4300 6350
+Connection ~ 4300 6350
+Wire Wire Line
+	4300 6350 4600 6350
+NoConn ~ 7700 2200
+NoConn ~ 7700 2300
+NoConn ~ 7700 2400
+NoConn ~ 7700 2500
+NoConn ~ 7700 2100
+$Comp
+L MySymLib:3V3_WIFI #PWR0165
+U 1 1 5F82E150
+P 9500 4650
+F 0 "#PWR0165" H 9750 4600 50  0001 C CNN
+F 1 "3V3_WIFI" H 9705 4823 50  0000 C CNN
+F 2 "" H 9500 4650 50  0001 C CNN
+F 3 "" H 9500 4650 50  0001 C CNN
+	1    9500 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L MySymLib:3V3_WIFI #PWR013
+U 1 1 5F82EA40
+P 9800 4650
+F 0 "#PWR013" H 10050 4600 50  0001 C CNN
+F 1 "3V3_WIFI" H 10005 4823 50  0000 C CNN
+F 2 "" H 9800 4650 50  0001 C CNN
+F 3 "" H 9800 4650 50  0001 C CNN
+	1    9800 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L MySymLib:3V3_WIFI #PWR053
+U 1 1 5F65524D
+P 7650 3500
+F 0 "#PWR053" H 7900 3450 50  0001 C CNN
+F 1 "3V3_WIFI" H 7850 3650 50  0000 C CNN
+F 2 "" H 7650 3500 50  0001 C CNN
+F 3 "" H 7650 3500 50  0001 C CNN
+	1    7650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:3V3 #PWR047
+U 1 1 5F668617
+P 7300 3450
+F 0 "#PWR047" H 7350 3350 50  0001 C CNN
+F 1 "3V3" H 7205 3523 50  0000 C CNN
+F 2 "" H 7300 3450 50  0001 C CNN
+F 3 "" H 7300 3450 50  0001 C CNN
+	1    7300 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L MySymLib:5V #PWR021
+U 1 1 5F78BEBA
+P 2100 6100
+F 0 "#PWR021" H 2100 6150 50  0001 C CNN
+F 1 "5V" H 2255 6223 50  0000 C CNN
+F 2 "" H 2100 6100 50  0001 C CNN
+F 3 "" H 2100 6100 50  0001 C CNN
+	1    2100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:3V3_WIFI #PWR065
+U 1 1 5F78F6D7
+P 4400 6200
+F 0 "#PWR065" H 4650 6150 50  0001 C CNN
+F 1 "3V3_WIFI" H 4605 6373 50  0000 C CNN
+F 2 "" H 4400 6200 50  0001 C CNN
+F 3 "" H 4400 6200 50  0001 C CNN
+	1    4400 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:3V3 #PWR073
+U 1 1 5F79A4BE
+P 4250 2600
+F 0 "#PWR073" H 4300 2500 50  0001 C CNN
+F 1 "3V3" H 4155 2673 50  0000 C CNN
+F 2 "" H 4250 2600 50  0001 C CNN
+F 3 "" H 4250 2600 50  0001 C CNN
+	1    4250 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2850 4150 2850
+$Comp
+L MySymLib:3V3 #PWR074
+U 1 1 5F7AF17F
+P 4300 1100
+F 0 "#PWR074" H 4350 1000 50  0001 C CNN
+F 1 "3V3" H 4205 1173 50  0000 C CNN
+F 2 "" H 4300 1100 50  0001 C CNN
+F 3 "" H 4300 1100 50  0001 C CNN
+	1    4300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:3V3_WIFI #PWR078
+U 1 1 5F806A55
+P 6600 1700
+F 0 "#PWR078" H 6850 1650 50  0001 C CNN
+F 1 "3V3_WIFI" H 6805 1873 50  0000 C CNN
+F 2 "" H 6600 1700 50  0001 C CNN
+F 3 "" H 6600 1700 50  0001 C CNN
+	1    6600 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1900 6800 2000
+Wire Wire Line
+	7100 1900 7100 2000
+Wire Wire Line
+	7500 2000 7700 2000
+Wire Wire Line
+	7500 1800 7700 1800
+NoConn ~ 7650 2000
+Wire Wire Line
+	3900 1350 4200 1350
+Wire Wire Line
+	3900 4750 4200 4750
+Wire Wire Line
+	4200 4600 4200 4650
+Connection ~ 4200 4750
+$Comp
+L MySymLib:3V3 #PWR0179
+U 1 1 5F777BA4
+P 4300 4500
+F 0 "#PWR0179" H 4350 4400 50  0001 C CNN
+F 1 "3V3" H 4205 4573 50  0000 C CNN
+F 2 "" H 4300 4500 50  0001 C CNN
+F 3 "" H 4300 4500 50  0001 C CNN
+	1    4300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1900 7700 1900
+Wire Wire Line
+	6800 1900 7100 1900
+Connection ~ 7100 1900
+Wire Wire Line
+	6800 1700 6800 1900
+Connection ~ 6800 1900
+Wire Wire Line
+	9300 4650 9300 4550
+Wire Wire Line
+	9600 4650 9600 4550
+Wire Wire Line
+	10000 4650 10000 4550
+Wire Wire Line
+	7500 3850 7850 3850
+Wire Wire Line
+	7850 3500 7850 3850
+Connection ~ 7850 3850
+Wire Wire Line
+	7850 3850 7950 3850
+Text HLabel 2600 1350 1    50   Input ~ 0
+INTERNAL-SPI3_SCK
+Text HLabel 2700 1450 1    50   Output ~ 0
+INTERNAL-SPI3_MISO
+Text HLabel 2800 1550 1    50   Input ~ 0
+INTERNAL-SPI3_MOSI
+Text HLabel 2600 1650 3    50   Input ~ 0
+SPBTLE-RF-SPI3_CSN
+Text HLabel 2700 1750 3    50   Output ~ 0
+SPBTLE-RF-IRQ_EXTI6
+Text HLabel 2800 1950 3    50   Input ~ 0
+SPBTLE-RF-RST
+Text HLabel 2950 2850 1    50   Input ~ 0
+INTERNAL-SPI3_SCK
+Text HLabel 2850 2950 1    50   Output ~ 0
+INTERNAL-SPI3_MISO
+Text HLabel 2750 3050 1    50   Input ~ 0
+INTERNAL-SPI3_MOSI
+Text HLabel 2650 3150 3    50   Input ~ 0
+SPSGRF-915-SPI3_CSN
+Text HLabel 2750 3350 3    50   Input ~ 0
+SPSGRF-915-GPIO3_EXTI5
+Text HLabel 2850 3850 3    50   Input ~ 0
+SPSGRF-915-SDN
+Text HLabel 2250 4750 1    50   Input ~ 0
+QUADSPI_NCS
+Text HLabel 2350 4850 1    50   Input ~ 0
+QUADSPI_CLK
+Text HLabel 2450 4950 1    50   BiDi ~ 0
+QUADSPI_BK1_IO0
+Text HLabel 2250 5150 3    50   BiDi ~ 0
+QUADSPI_BK1_IO1
+Text HLabel 2350 5250 3    50   BiDi ~ 0
+QUADSPI_BK1_IO2
+Text HLabel 2450 5350 3    50   BiDi ~ 0
+QUADSPI_BK1_IO3
+Text HLabel 7200 2600 1    50   Input ~ 0
+INTERNAL-SPI3_MOSI
+Text HLabel 7300 2700 1    50   Output ~ 0
+INTERNAL-SPI3_MISO
+Text HLabel 7400 2800 1    50   Input ~ 0
+INTERNAL-SPI3_SCK
+Text HLabel 7500 2900 1    50   Input ~ 0
+ISM43362-SPI3_CSN
+Text HLabel 7200 3500 1    50   Output ~ 0
+ISM43362-DRDY_EXTI1
+Text HLabel 7300 3600 1    50   Input ~ 0
+ISM43362-BOOT0
+Text HLabel 7400 3750 1    50   Input ~ 0
+ISM43362-RST
+Text HLabel 7200 4300 1    50   Input ~ 0
+ISM43362-WAKEUP
+Text HLabel 7300 4500 1    50   Output ~ 0
+INTERNAL-UART3_TX
+Text HLabel 7250 4600 3    50   Input ~ 0
+INTERNAL-UART3_RX
+Wire Wire Line
+	4200 1200 4200 1350
+Connection ~ 4200 1350
+Text GLabel 4200 1250 2    50   Input Italic 0
+3V3
+Text GLabel 4400 2750 2    50   Input Italic 0
+3V3
+Wire Wire Line
+	4150 2700 4150 2750
+Connection ~ 4150 2850
+Wire Wire Line
+	4400 2750 4150 2750
+Connection ~ 4150 2750
+Wire Wire Line
+	4150 2750 4150 2850
+Text GLabel 4350 4650 2    50   Input Italic 0
+3V3
+Wire Wire Line
+	4350 4650 4200 4650
+Connection ~ 4200 4650
+Wire Wire Line
+	4200 4650 4200 4750
+Text GLabel 2250 6250 2    50   Input Italic 0
+5V
+Wire Wire Line
+	2100 6350 2250 6350
+Wire Wire Line
+	2250 6150 2250 6350
+Connection ~ 2250 6350
+Wire Wire Line
+	2250 6350 2500 6350
+Wire Wire Line
+	4600 6200 4600 6350
+Connection ~ 4600 6350
+Text GLabel 4600 6250 2    50   Input Italic 0
+3V3_WIFI
+Text GLabel 6800 1800 0    50   Input Italic 0
+3V3_WIFI
+Wire Wire Line
+	7400 3200 7400 3350
+Text GLabel 7850 3550 2    50   Input Italic 0
+3V3_WIFI
+Text GLabel 7400 3300 2    50   Input Italic 0
+3V3
+Text GLabel 9300 4600 0    50   Input Italic 0
+3V3_WIFI
+Text GLabel 9600 4600 2    50   Input Italic 0
+3V3_WIFI
+Wire Wire Line
+	4200 1750 4200 1650
+Wire Wire Line
+	3900 1950 4300 1950
+Text GLabel 4200 1700 2    50   Input ~ 0
+GND
+Text GLabel 4100 1950 3    50   Input ~ 0
+GND
+Wire Wire Line
+	4150 3150 4150 3300
+Wire Wire Line
+	3800 3850 4000 3850
+Text GLabel 4150 3200 2    50   Input ~ 0
+GND
+Text GLabel 3900 3850 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3900 5300 3900 5050
+Wire Wire Line
+	4200 5300 4200 5050
+Text GLabel 4200 5150 2    50   Input ~ 0
+GND
+Text GLabel 3900 5200 2    50   Input ~ 0
+GND
+Wire Wire Line
+	4600 6850 4600 7200
+Wire Wire Line
+	2100 6650 2100 6900
+Text GLabel 4600 7000 2    50   Input ~ 0
+GND
+Text GLabel 2100 6750 2    50   Input ~ 0
+GND
+Text GLabel 2550 7250 3    50   Input ~ 0
+GND
+Text GLabel 7600 1800 1    50   Input ~ 0
+GND
+Wire Wire Line
+	6800 2300 6800 2400
+Wire Wire Line
+	7100 2300 7100 2400
+Text GLabel 6800 2350 0    50   Input ~ 0
+GND
+Text GLabel 7100 2350 0    50   Input ~ 0
+GND
+Text GLabel 8950 1300 1    50   Input ~ 0
+GND
+Wire Wire Line
+	9400 1800 9800 1800
+Text GLabel 9700 1800 1    50   Input ~ 0
+GND
+Wire Wire Line
+	8800 3400 8800 3850
+Wire Wire Line
+	8500 3400 8500 3850
+Wire Wire Line
+	7950 4150 7950 4700
+Wire Wire Line
+	7500 4150 7500 4700
+Text GLabel 8800 3700 2    50   Input ~ 0
+GND
+Text GLabel 8500 3700 2    50   Input ~ 0
+GND
+Text GLabel 7950 4550 2    50   Input ~ 0
+GND
+Text GLabel 7500 4550 2    50   Input ~ 0
+GND
+Text GLabel 10000 4600 2    50   Input ~ 0
+GND
+$EndSCHEMATC

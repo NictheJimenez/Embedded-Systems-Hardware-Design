@@ -1,0 +1,1377 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title "STM32L475VG microcontroller 1-1"
+Date "09/03/2020"
+Rev "A"
+Comp ""
+Comment1 "Embedded Systems Hardware Design "
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5F88BAFF
+P 8200 4800
+AR Path="/5F0F896A/5F88BAFF" Ref="C?"  Part="1" 
+AR Path="/5F0F8149/5F88BAFF" Ref="C?"  Part="1" 
+AR Path="/5F33DECA/5F88BAFF" Ref="C12"  Part="1" 
+F 0 "C12" V 8350 4800 50  0000 C CNN
+F 1 "100nF" V 8050 4800 50  0000 C CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 8238 4650 50  0001 C CNN
+F 3 "~" H 8200 4800 50  0001 C CNN
+	1    8200 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88BB05
+P 8600 4800
+AR Path="/5F0F896A/5F88BB05" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F8149/5F88BB05" Ref="#PWR?"  Part="1" 
+AR Path="/5F33DECA/5F88BB05" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 8600 4550 50  0001 C CNN
+F 1 "GND" V 8605 4672 50  0000 R CNN
+F 2 "" H 8600 4800 50  0001 C CNN
+F 3 "" H 8600 4800 50  0001 C CNN
+	1    8600 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88BB0B
+P 7400 5350
+AR Path="/5F0F896A/5F88BB0B" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F8149/5F88BB0B" Ref="#PWR?"  Part="1" 
+AR Path="/5F33DECA/5F88BB0B" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 7400 5100 50  0001 C CNN
+F 1 "GND" V 7405 5222 50  0000 R CNN
+F 2 "" H 7400 5350 50  0001 C CNN
+F 3 "" H 7400 5350 50  0001 C CNN
+	1    7400 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88BB11
+P 7400 5450
+AR Path="/5F0F896A/5F88BB11" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F8149/5F88BB11" Ref="#PWR?"  Part="1" 
+AR Path="/5F33DECA/5F88BB11" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 7400 5200 50  0001 C CNN
+F 1 "GND" V 7405 5322 50  0000 R CNN
+F 2 "" H 7400 5450 50  0001 C CNN
+F 3 "" H 7400 5450 50  0001 C CNN
+	1    7400 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88BB1D
+P 8050 6000
+AR Path="/5F0F896A/5F88BB1D" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F8149/5F88BB1D" Ref="#PWR?"  Part="1" 
+AR Path="/5F33DECA/5F88BB1D" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 8050 5750 50  0001 C CNN
+F 1 "GND" H 8055 5827 50  0000 C CNN
+F 2 "" H 8050 6000 50  0001 C CNN
+F 3 "" H 8050 6000 50  0001 C CNN
+	1    8050 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88BB23
+P 7400 6150
+AR Path="/5F0F896A/5F88BB23" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F8149/5F88BB23" Ref="#PWR?"  Part="1" 
+AR Path="/5F33DECA/5F88BB23" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 7400 5900 50  0001 C CNN
+F 1 "GND" H 7405 5977 50  0000 C CNN
+F 2 "" H 7400 6150 50  0001 C CNN
+F 3 "" H 7400 6150 50  0001 C CNN
+	1    7400 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5650 7400 5650
+Wire Wire Line
+	7400 5650 7400 5750
+Wire Wire Line
+	7250 5750 7400 5750
+Connection ~ 7400 5750
+Wire Wire Line
+	7400 5750 7400 5850
+Wire Wire Line
+	7250 5850 7400 5850
+Connection ~ 7400 5850
+Wire Wire Line
+	7400 5850 7400 5950
+Wire Wire Line
+	7250 5950 7400 5950
+Connection ~ 7400 5950
+Wire Wire Line
+	7400 5950 7400 6050
+Wire Wire Line
+	7250 6050 7400 6050
+Connection ~ 7400 6050
+Wire Wire Line
+	7400 6050 7400 6150
+Wire Wire Line
+	7250 5150 8050 5150
+Wire Wire Line
+	8050 5150 8050 4800
+Wire Wire Line
+	8050 4350 9400 4350
+Connection ~ 8050 4800
+Wire Wire Line
+	8050 4800 8050 4350
+$Comp
+L Device:C C?
+U 1 1 5F88BB3C
+P 8050 5700
+AR Path="/5F0F896A/5F88BB3C" Ref="C?"  Part="1" 
+AR Path="/5F0F8149/5F88BB3C" Ref="C?"  Part="1" 
+AR Path="/5F33DECA/5F88BB3C" Ref="C11"  Part="1" 
+F 0 "C11" H 8165 5746 50  0000 L CNN
+F 1 "100nF" H 8165 5655 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 8088 5550 50  0001 C CNN
+F 3 "~" H 8050 5700 50  0001 C CNN
+	1    8050 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5750 6150 5750
+Wire Wire Line
+	6150 5750 6150 5850
+Wire Wire Line
+	6400 5850 6150 5850
+Connection ~ 6150 5850
+Wire Wire Line
+	6150 5850 6150 5950
+Wire Wire Line
+	6400 5950 6150 5950
+Connection ~ 6150 5950
+Wire Wire Line
+	6150 5950 6150 6050
+Wire Wire Line
+	6400 6050 6150 6050
+Connection ~ 6150 6050
+Wire Wire Line
+	6150 6050 6150 6150
+Wire Wire Line
+	6400 6150 6200 6150
+$Comp
+L Device:C C?
+U 1 1 5F88BB63
+P 5250 5600
+AR Path="/5F0F896A/5F88BB63" Ref="C?"  Part="1" 
+AR Path="/5F0F8149/5F88BB63" Ref="C?"  Part="1" 
+AR Path="/5F33DECA/5F88BB63" Ref="C8"  Part="1" 
+F 0 "C8" H 5365 5646 50  0000 L CNN
+F 1 "100nF" H 5365 5555 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 5288 5450 50  0001 C CNN
+F 3 "~" H 5250 5600 50  0001 C CNN
+	1    5250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F88BB69
+P 5700 5600
+AR Path="/5F0F896A/5F88BB69" Ref="C?"  Part="1" 
+AR Path="/5F0F8149/5F88BB69" Ref="C?"  Part="1" 
+AR Path="/5F33DECA/5F88BB69" Ref="C10"  Part="1" 
+F 0 "C10" H 5815 5646 50  0000 L CNN
+F 1 "1uF" H 5815 5555 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 5738 5450 50  0001 C CNN
+F 3 "~" H 5700 5600 50  0001 C CNN
+	1    5700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5F88BB6F
+P 4950 5450
+AR Path="/5F0F896A/5F88BB6F" Ref="L?"  Part="1" 
+AR Path="/5F0F8149/5F88BB6F" Ref="L?"  Part="1" 
+AR Path="/5F33DECA/5F88BB6F" Ref="L1"  Part="1" 
+F 0 "L1" V 4769 5450 50  0000 C CNN
+F 1 "FTM1608KF-60IT03" V 4860 5450 50  0000 C CNN
+F 2 "MyfootprintLib:L_0402_1005Metric" H 4950 5450 50  0001 C CNN
+F 3 "~" H 4950 5450 50  0001 C CNN
+	1    4950 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88BB75
+P 5250 5900
+AR Path="/5F0F896A/5F88BB75" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F8149/5F88BB75" Ref="#PWR?"  Part="1" 
+AR Path="/5F33DECA/5F88BB75" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 5250 5650 50  0001 C CNN
+F 1 "GND" H 5255 5727 50  0000 C CNN
+F 2 "" H 5250 5900 50  0001 C CNN
+F 3 "" H 5250 5900 50  0001 C CNN
+	1    5250 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88BB7B
+P 5700 5900
+AR Path="/5F0F896A/5F88BB7B" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F8149/5F88BB7B" Ref="#PWR?"  Part="1" 
+AR Path="/5F33DECA/5F88BB7B" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 5700 5650 50  0001 C CNN
+F 1 "GND" H 5705 5727 50  0000 C CNN
+F 2 "" H 5700 5900 50  0001 C CNN
+F 3 "" H 5700 5900 50  0001 C CNN
+	1    5700 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5450 5250 5450
+Connection ~ 5250 5450
+Wire Wire Line
+	5250 5450 5500 5450
+Connection ~ 5700 5450
+Wire Wire Line
+	6400 5350 6250 5350
+Wire Wire Line
+	6250 5350 6250 5450
+Connection ~ 6250 5450
+Wire Wire Line
+	6250 5450 6400 5450
+$Comp
+L Device:R R?
+U 1 1 5F88BB8C
+P 3900 4950
+AR Path="/5F0F896A/5F88BB8C" Ref="R?"  Part="1" 
+AR Path="/5F0F8149/5F88BB8C" Ref="R?"  Part="1" 
+AR Path="/5F33DECA/5F88BB8C" Ref="R1"  Part="1" 
+F 0 "R1" V 3800 4950 50  0000 C CNN
+F 1 "Not Fitted (0R)" V 4000 5050 50  0000 C CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 3830 4950 50  0001 C CNN
+F 3 "~" H 3900 4950 50  0001 C CNN
+	1    3900 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F88BB92
+P 3900 5250
+AR Path="/5F0F896A/5F88BB92" Ref="R?"  Part="1" 
+AR Path="/5F0F8149/5F88BB92" Ref="R?"  Part="1" 
+AR Path="/5F33DECA/5F88BB92" Ref="R2"  Part="1" 
+F 0 "R2" V 3800 5250 50  0000 C CNN
+F 1 "Not Fitted (0R)" V 4000 5300 50  0000 C CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 3830 5250 50  0001 C CNN
+F 3 "~" H 3900 5250 50  0001 C CNN
+	1    3900 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F88BB98
+P 3250 4950
+AR Path="/5F0F896A/5F88BB98" Ref="C?"  Part="1" 
+AR Path="/5F0F8149/5F88BB98" Ref="C?"  Part="1" 
+AR Path="/5F33DECA/5F88BB98" Ref="C6"  Part="1" 
+F 0 "C6" V 2998 4950 50  0000 C CNN
+F 1 "Not Fitted (8.2pF)" V 3089 4950 50  0000 C CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 3288 4800 50  0001 C CNN
+F 3 "~" H 3250 4950 50  0001 C CNN
+	1    3250 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F88BB9E
+P 3250 5250
+AR Path="/5F0F896A/5F88BB9E" Ref="C?"  Part="1" 
+AR Path="/5F0F8149/5F88BB9E" Ref="C?"  Part="1" 
+AR Path="/5F33DECA/5F88BB9E" Ref="C7"  Part="1" 
+F 0 "C7" V 2950 5250 50  0000 C CNN
+F 1 "Not Fitted (8.2pF)" V 3050 5250 50  0000 C CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 3288 5100 50  0001 C CNN
+F 3 "~" H 3250 5250 50  0001 C CNN
+	1    3250 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88BBA4
+P 2850 4950
+AR Path="/5F0F896A/5F88BBA4" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F8149/5F88BBA4" Ref="#PWR?"  Part="1" 
+AR Path="/5F33DECA/5F88BBA4" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 2850 4700 50  0001 C CNN
+F 1 "GND" V 2855 4822 50  0000 R CNN
+F 2 "" H 2850 4950 50  0001 C CNN
+F 3 "" H 2850 4950 50  0001 C CNN
+	1    2850 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88BBAA
+P 2850 5250
+AR Path="/5F0F896A/5F88BBAA" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F8149/5F88BBAA" Ref="#PWR?"  Part="1" 
+AR Path="/5F33DECA/5F88BBAA" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 2850 5000 50  0001 C CNN
+F 1 "GND" V 2855 5122 50  0000 R CNN
+F 2 "" H 2850 5250 50  0001 C CNN
+F 3 "" H 2850 5250 50  0001 C CNN
+	1    2850 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 5250 6400 5250
+Wire Wire Line
+	4050 4950 6100 4950
+Wire Wire Line
+	6100 4950 6100 5150
+Wire Wire Line
+	6100 5150 6400 5150
+Wire Wire Line
+	3400 4950 3500 4950
+Wire Wire Line
+	3400 5250 3500 5250
+Text GLabel 9400 4350 2    50   BiDi ~ 0
+STM_NRST
+$Comp
+L power:GND #PWR?
+U 1 1 5F88BBBD
+P 1150 7100
+AR Path="/5F0F896A/5F88BBBD" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F8149/5F88BBBD" Ref="#PWR?"  Part="1" 
+AR Path="/5F33DECA/5F88BBBD" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 1150 6850 50  0001 C CNN
+F 1 "GND" H 1155 6927 50  0000 C CNN
+F 2 "" H 1150 7100 50  0001 C CNN
+F 3 "" H 1150 7100 50  0001 C CNN
+	1    1150 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F88BBC3
+P 1150 6950
+AR Path="/5F0F896A/5F88BBC3" Ref="C?"  Part="1" 
+AR Path="/5F0F8149/5F88BBC3" Ref="C?"  Part="1" 
+AR Path="/5F33DECA/5F88BBC3" Ref="C1"  Part="1" 
+F 0 "C1" H 1265 6996 50  0000 L CNN
+F 1 "100nF" H 1265 6905 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 1188 6800 50  0001 C CNN
+F 3 "~" H 1150 6950 50  0001 C CNN
+	1    1150 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F88BBC9
+P 1650 6950
+AR Path="/5F0F896A/5F88BBC9" Ref="C?"  Part="1" 
+AR Path="/5F0F8149/5F88BBC9" Ref="C?"  Part="1" 
+AR Path="/5F33DECA/5F88BBC9" Ref="C2"  Part="1" 
+F 0 "C2" H 1765 6996 50  0000 L CNN
+F 1 "100nF" H 1765 6905 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 1688 6800 50  0001 C CNN
+F 3 "~" H 1650 6950 50  0001 C CNN
+	1    1650 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F88BBCF
+P 2150 6950
+AR Path="/5F0F896A/5F88BBCF" Ref="C?"  Part="1" 
+AR Path="/5F0F8149/5F88BBCF" Ref="C?"  Part="1" 
+AR Path="/5F33DECA/5F88BBCF" Ref="C3"  Part="1" 
+F 0 "C3" H 2265 6996 50  0000 L CNN
+F 1 "100nF" H 2265 6905 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 2188 6800 50  0001 C CNN
+F 3 "~" H 2150 6950 50  0001 C CNN
+	1    2150 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F88BBD5
+P 2650 6950
+AR Path="/5F0F896A/5F88BBD5" Ref="C?"  Part="1" 
+AR Path="/5F0F8149/5F88BBD5" Ref="C?"  Part="1" 
+AR Path="/5F33DECA/5F88BBD5" Ref="C4"  Part="1" 
+F 0 "C4" H 2765 6996 50  0000 L CNN
+F 1 "100nF" H 2765 6905 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 2688 6800 50  0001 C CNN
+F 3 "~" H 2650 6950 50  0001 C CNN
+	1    2650 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F88BBDB
+P 3150 6950
+AR Path="/5F0F896A/5F88BBDB" Ref="C?"  Part="1" 
+AR Path="/5F0F8149/5F88BBDB" Ref="C?"  Part="1" 
+AR Path="/5F33DECA/5F88BBDB" Ref="C5"  Part="1" 
+F 0 "C5" H 3265 6996 50  0000 L CNN
+F 1 "100nF" H 3265 6905 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 3188 6800 50  0001 C CNN
+F 3 "~" H 3150 6950 50  0001 C CNN
+	1    3150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 6800 1650 6800
+Wire Wire Line
+	1650 6800 2150 6800
+Connection ~ 1650 6800
+Wire Wire Line
+	2150 6800 2650 6800
+Connection ~ 2150 6800
+Wire Wire Line
+	2650 6800 3150 6800
+Connection ~ 2650 6800
+Wire Wire Line
+	1150 7100 1650 7100
+Connection ~ 1150 7100
+Wire Wire Line
+	1650 7100 2150 7100
+Connection ~ 1650 7100
+Wire Wire Line
+	2150 7100 2650 7100
+Connection ~ 2150 7100
+Wire Wire Line
+	2650 7100 3150 7100
+Connection ~ 2650 7100
+Text GLabel 9700 1550 2    50   Output ~ 0
+SPSGRF-915-GPIO3_EXTI5
+Text GLabel 9700 1650 2    50   Input ~ 0
+SPBTLE-RF-IRQ_EXTI6
+Text GLabel 9700 1850 2    50   Output ~ 0
+ISM43362-RST
+Text GLabel 4050 2450 2    50   Output ~ 0
+ISM43362-BOOT0
+Text GLabel 4050 2550 2    50   Output ~ 0
+ISM43362-WAKEUP
+Text GLabel 4050 2750 2    50   Input ~ 0
+SPSGRF-915-SDN
+Text GLabel 7750 2050 0    50   Input ~ 0
+LPS22HB_INT_DRDY_EXTI10
+Text GLabel 7750 2150 0    50   Input ~ 0
+LSM6DSL_INT1_EXTI11
+Text GLabel 7750 2350 0    50   Output ~ 0
+SPBTLE-RF-SPI3_CSN
+Text GLabel 7750 2550 0    50   Output ~ 0
+HTS221_DRDY_EXTI15
+Text GLabel 1650 3550 0    50   Input ~ 0
+VL53L0X_XSHUT
+Text GLabel 1650 3650 0    50   Input ~ 0
+VL53L0X_GPIO1_EXT17
+Text GLabel 4050 2950 2    50   Input ~ 0
+LSM3MDL_DRDY_EXTI8
+Text GLabel 1650 1950 0    50   Output ~ 0
+SPBTLE-RF-RST
+Text GLabel 4050 1750 2    50   Output ~ 0
+SPSGRF-915-SPI3_CSN
+Text GLabel 9700 1050 2    50   Output ~ 0
+ISM43362-SPI3_CSN
+Text GLabel 9700 1150 2    50   Input ~ 0
+ISM43362-DRDY_EXTI1
+Text GLabel 5700 2250 2    50   Output ~ 0
+INTERNAL-I2C2_SCL
+Text GLabel 5700 2350 2    50   BiDi ~ 0
+INTERNAL-I2C2_SDA
+Text GLabel 7750 1850 0    50   Output ~ 0
+INTERNAL-UART3_TX
+Text GLabel 7750 1950 0    50   Input ~ 0
+INTERNAL-UART3_RX
+Text GLabel 4050 3150 2    50   Output ~ 0
+INTERNAL-SPI3_SCK
+Text GLabel 4050 3250 2    50   Input ~ 0
+INTERNAL-SPI3_MISO
+Text GLabel 4050 3350 2    50   Output ~ 0
+INTERNAL-SPI3_MOSI
+Text GLabel 9700 1950 2    50   Output ~ 0
+DFSDM1_CKOUT
+Text GLabel 9700 1750 2    50   Input ~ 0
+DFSDM1_DATINT
+Text GLabel 9700 2050 2    50   Output ~ 0
+QUADSPI_CLK
+Text GLabel 9700 2150 2    50   Output ~ 0
+QUADSPI_NCS
+Text GLabel 9700 2250 2    50   BiDi ~ 0
+QUADSPI_BK1_IO0
+Text GLabel 9700 2350 2    50   BiDi ~ 0
+QUADSPI_BK1_IO1
+Text GLabel 9700 2450 2    50   BiDi ~ 0
+QUADSPI_BK1_IO2
+Text GLabel 9700 2550 2    50   BiDi ~ 0
+QUADSPI_BK1_IO3
+Wire Wire Line
+	1650 3550 2000 3550
+Wire Wire Line
+	1650 3650 2000 3650
+Wire Wire Line
+	1650 1950 2000 1950
+Wire Wire Line
+	3600 1750 4050 1750
+Wire Wire Line
+	3600 2450 4050 2450
+Wire Wire Line
+	3600 2550 4050 2550
+Wire Wire Line
+	3600 2750 4050 2750
+Wire Wire Line
+	3600 2950 4050 2950
+Wire Wire Line
+	3600 3150 4050 3150
+Wire Wire Line
+	3600 3250 4050 3250
+Wire Wire Line
+	3600 3350 4050 3350
+Wire Wire Line
+	3600 2250 5450 2250
+Wire Wire Line
+	3600 2350 5200 2350
+$Comp
+L Device:R R3
+U 1 1 5F957853
+P 5200 2700
+F 0 "R3" H 5270 2746 50  0000 L CNN
+F 1 "2k2" H 5270 2655 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 5130 2700 50  0001 C CNN
+F 3 "~" H 5200 2700 50  0001 C CNN
+	1    5200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F957C1B
+P 5450 2700
+F 0 "R4" H 5520 2746 50  0000 L CNN
+F 1 "2k2" H 5520 2655 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 5380 2700 50  0001 C CNN
+F 3 "~" H 5450 2700 50  0001 C CNN
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2550 5200 2350
+Connection ~ 5200 2350
+Wire Wire Line
+	5200 2350 5700 2350
+Wire Wire Line
+	5450 2550 5450 2250
+Connection ~ 5450 2250
+Wire Wire Line
+	5450 2250 5700 2250
+Wire Wire Line
+	5200 2850 5200 3000
+Wire Wire Line
+	5450 2850 5450 3000
+Wire Wire Line
+	7750 1850 8150 1850
+Wire Wire Line
+	7750 1950 8150 1950
+Wire Wire Line
+	7750 2050 8150 2050
+Wire Wire Line
+	7750 2150 8150 2150
+Wire Wire Line
+	7750 2350 8150 2350
+Wire Wire Line
+	7750 2550 8150 2550
+Wire Wire Line
+	9250 1050 9700 1050
+Wire Wire Line
+	9250 1150 9700 1150
+Wire Wire Line
+	9250 1650 9700 1650
+Wire Wire Line
+	9250 1550 9700 1550
+Wire Wire Line
+	9250 1750 9700 1750
+Wire Wire Line
+	9250 1850 9700 1850
+Wire Wire Line
+	9250 1950 9700 1950
+Wire Wire Line
+	9250 2050 9700 2050
+Wire Wire Line
+	9250 2150 9700 2150
+Wire Wire Line
+	9250 2250 9700 2250
+Wire Wire Line
+	9250 2350 9700 2350
+Wire Wire Line
+	9250 2450 9700 2450
+Wire Wire Line
+	9250 2550 9700 2550
+NoConn ~ 2000 2050
+NoConn ~ 2000 2150
+NoConn ~ 2000 2250
+NoConn ~ 2000 2350
+NoConn ~ 3600 1850
+NoConn ~ 3600 1950
+NoConn ~ 8150 1750
+NoConn ~ 9250 1250
+NoConn ~ 9250 1350
+NoConn ~ 9250 1450
+NoConn ~ 8150 2250
+$Comp
+L Device:Crystal X1
+U 1 1 5FA673BC
+P 3500 5100
+F 0 "X1" V 3400 5200 50  0000 L CNN
+F 1 "Not Fitted (NX3225GD-8.00M)" V 3500 3850 50  0000 L CNN
+F 2 "MyfootprintLib:Crystal_SMD_0603-2Pin_6.0x3.5mm" H 3500 5100 50  0001 C CNN
+F 3 "~" H 3500 5100 50  0001 C CNN
+	1    3500 5100
+	0    1    1    0   
+$EndComp
+Connection ~ 3500 4950
+Wire Wire Line
+	3500 4950 3750 4950
+Connection ~ 3500 5250
+Wire Wire Line
+	3500 5250 3750 5250
+$Comp
+L Device:C C9
+U 1 1 5FA89BEE
+P 5700 6550
+F 0 "C9" H 5815 6596 50  0000 L CNN
+F 1 "1uF" H 5815 6505 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 5738 6400 50  0001 C CNN
+F 3 "~" H 5700 6550 50  0001 C CNN
+	1    5700 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5FA8A3F0
+P 5700 6900
+F 0 "#PWR010" H 5700 6650 50  0001 C CNN
+F 1 "GND" H 5705 6727 50  0000 C CNN
+F 2 "" H 5700 6900 50  0001 C CNN
+F 3 "" H 5700 6900 50  0001 C CNN
+	1    5700 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5650 6050 5650
+Wire Wire Line
+	6050 5650 6050 6400
+$Comp
+L power:GND #PWR020
+U 1 1 5F28ECE2
+P 9650 5550
+F 0 "#PWR020" H 9650 5300 50  0001 C CNN
+F 1 "GND" V 9655 5422 50  0000 R CNN
+F 2 "" H 9650 5550 50  0001 C CNN
+F 3 "" H 9650 5550 50  0001 C CNN
+	1    9650 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 5250 8900 5250
+Wire Wire Line
+	8900 5250 8900 5550
+Wire Wire Line
+	8900 5550 9150 5550
+Connection ~ 8900 5250
+Wire Wire Line
+	8900 5250 9150 5250
+$Comp
+L MySymLib:STM32L475VG U1
+U 1 1 5F43CF5D
+P 2600 2350
+F 0 "U1" H 2200 3750 50  0000 C CNN
+F 1 "STM32L475VG" H 2300 700 50  0000 C CNN
+F 2 "MyfootprintLib:LQFP-100_14x14mm_P0.5mm" H 3500 2350 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32l475rc.pdf" H 3500 2350 50  0001 C CNN
+	1    2600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:STM32L475VG U1
+U 2 1 5F44032E
+P 7750 3650
+F 0 "U1" H 8400 6550 50  0000 C CNN
+F 1 "STM32L475VG" H 8500 4250 50  0000 C CNN
+F 2 "MyfootprintLib:LQFP-100_14x14mm_P0.5mm" H 8650 3650 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32l475rc.pdf" H 8650 3650 50  0001 C CNN
+	2    7750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:STM32L475VG U1
+U 3 1 5F446AC3
+P 5800 6050
+F 0 "U1" H 6825 7217 50  0000 C CNN
+F 1 "STM32L475VG" H 6750 5800 50  0000 C CNN
+F 2 "MyfootprintLib:LQFP-100_14x14mm_P0.5mm" H 6700 6050 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32l475rc.pdf" H 6700 6050 50  0001 C CNN
+	3    5800 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 3450 0    50   Input ~ 0
+ARD.A0-ADC
+Text GLabel 1650 3350 0    50   Input ~ 0
+ARD.A1-ADC
+Text GLabel 1650 3250 0    50   Input ~ 0
+ARD.A2-ADC
+Text GLabel 1650 3150 0    50   Input ~ 0
+ARD.A3-ADC
+Text GLabel 1650 3050 0    50   Input ~ 0
+ARD.A4-ADC
+Text GLabel 1650 2950 0    50   Input ~ 0
+ARD.A5-ADC
+Wire Wire Line
+	1650 3450 2000 3450
+Wire Wire Line
+	1650 3350 2000 3350
+Wire Wire Line
+	1650 3250 2000 3250
+Wire Wire Line
+	1650 3150 2000 3150
+Wire Wire Line
+	1650 3050 2000 3050
+Wire Wire Line
+	1650 2950 2000 2950
+Text GLabel 7750 1350 0    50   Input ~ 0
+PMOD-UART2_CTS-SPI2_MISO
+Text GLabel 7750 1450 0    50   Output ~ 0
+PMOD-UART2_RTS-SPI2_MOSI
+Text GLabel 7750 1550 0    50   Output ~ 0
+PMOD-UART2_TX-SPI2_CSN
+Wire Wire Line
+	7750 1350 8150 1350
+Wire Wire Line
+	7750 1450 8150 1450
+Wire Wire Line
+	7750 1550 8150 1550
+Text GLabel 7750 1050 0    50   Output ~ 0
+PMOD-RESET
+Text GLabel 7750 1150 0    50   Output ~ 0
+PMOD-SPI2_SCK
+Text GLabel 7750 1250 0    50   Input ~ 0
+PMOD-IRQ_EXTI2
+Text GLabel 7750 1650 0    50   Input ~ 0
+PMOD-UART2_RX
+Wire Wire Line
+	7750 1050 8150 1050
+Wire Wire Line
+	7750 1150 8150 1150
+Wire Wire Line
+	7750 1250 8150 1250
+Wire Wire Line
+	7750 1650 8150 1650
+Text GLabel 5700 2050 2    50   BiDi ~ 0
+ARD.D15-I2C1_SCL
+Text GLabel 5700 2150 2    50   BiDi ~ 0
+ARD.D14-I2CI_SDA
+Wire Wire Line
+	3600 2050 5450 2050
+Wire Wire Line
+	3600 2150 5200 2150
+Text GLabel 1550 1650 0    50   BiDi ~ 0
+ARD.D13-SPI1_SCK-LED1
+Text GLabel 1600 1750 0    50   Input ~ 0
+ARD.D12-SPI1_MISO
+Text GLabel 1600 1850 0    50   Output ~ 0
+ARD.D11-SPI1_MOSI_PWM
+Wire Wire Line
+	1600 1750 2000 1750
+Wire Wire Line
+	1600 1850 2000 1850
+Text GLabel 1650 1350 0    50   Output ~ 0
+ARD.D10-SPI_SSN_PWM
+Wire Wire Line
+	1650 1350 2000 1350
+Text GLabel 1650 2650 0    50   BiDi ~ 0
+ARD.D9-PWM
+Wire Wire Line
+	1650 2650 2000 2650
+Text GLabel 4050 1250 2    50   BiDi ~ 0
+ARD.D3-PWM_INTI_EXTI0
+Text GLabel 4050 1350 2    50   Output ~ 0
+ARD.D6-PWM
+Text GLabel 4050 1450 2    50   BiDi ~ 0
+ARD.D8
+Text GLabel 4050 1650 2    50   BiDi ~ 0
+ARD.D5-PWM
+Wire Wire Line
+	3600 1250 4050 1250
+Wire Wire Line
+	3600 1350 4050 1350
+Wire Wire Line
+	3600 1450 4050 1450
+Wire Wire Line
+	3600 1650 4050 1650
+Text GLabel 1650 1150 0    50   Output ~ 0
+ARD.D1-UART4_TX
+Text GLabel 1650 1250 0    50   Input ~ 0
+ARD.D0-UART4_RX
+Wire Wire Line
+	1650 1150 2000 1150
+Wire Wire Line
+	1650 1250 2000 1250
+Text GLabel 1650 1450 0    50   BiDi ~ 0
+ARD.D4
+Text GLabel 1650 1550 0    50   BiDi ~ 0
+ARD.D7
+Wire Wire Line
+	1650 1450 2000 1450
+Wire Wire Line
+	1650 1550 2000 1550
+Text GLabel 7750 2450 0    50   Input ~ 0
+ARD.D2-INT0_EXTI14
+Wire Wire Line
+	7750 2450 8150 2450
+Text GLabel 1650 2450 0    50   BiDi ~ 0
+SYS_JTMS-SWDIO
+Text GLabel 1650 2550 0    50   Output ~ 0
+SYS_JTCK_SWCLK
+Wire Wire Line
+	1650 2450 2000 2450
+Wire Wire Line
+	1650 2550 2000 2550
+Text GLabel 4050 1550 2    50   Output ~ 0
+SYS_JTDO-SWO
+Wire Wire Line
+	3600 1550 4050 1550
+Text GLabel 4050 2650 2    50   Output ~ 0
+LED2
+Text GLabel 4050 3050 2    50   Output ~ 0
+LED3(WIFI)_&_LED4(BLE)
+Wire Wire Line
+	3600 2650 4050 2650
+Wire Wire Line
+	3600 3050 4050 3050
+Text GLabel 4050 3450 2    50   Input ~ 0
+BUTTON_EXTI13
+Wire Wire Line
+	3600 3450 4050 3450
+$Comp
+L MySymLib:Close SB130
+U 1 1 5F6E9D09
+P 9200 5700
+F 0 "SB130" H 9300 6075 50  0000 C CNN
+F 1 "Close" H 9300 5984 50  0000 C CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9100 5700 50  0001 C CNN
+F 3 "" H 9100 5700 50  0001 C CNN
+	1    9200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:Open SB90
+U 1 1 5F6EA482
+P 9100 5200
+F 0 "SB90" H 9300 5375 50  0000 C CNN
+F 1 "Open" H 9300 5284 50  0000 C CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9100 5300 50  0001 C CNN
+F 3 "" H 9100 5300 50  0001 C CNN
+	1    9100 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:VDD_MCU #PWR0147
+U 1 1 5F7B3C4F
+P 950 6700
+F 0 "#PWR0147" H 950 6650 50  0001 C CNN
+F 1 "VDD_MCU" H 1155 6773 50  0000 C CNN
+F 2 "" H 950 6700 50  0001 C CNN
+F 3 "" H 950 6700 50  0001 C CNN
+	1    950  6700
+	1    0    0    -1  
+$EndComp
+Connection ~ 1150 6800
+Wire Wire Line
+	1550 1650 2000 1650
+$Comp
+L Device:R R81
+U 1 1 5F475DDD
+P 5200 1700
+F 0 "R81" H 5270 1746 50  0000 L CNN
+F 1 "2k2" H 5270 1655 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 5130 1700 50  0001 C CNN
+F 3 "~" H 5200 1700 50  0001 C CNN
+	1    5200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R91
+U 1 1 5F476A25
+P 5450 1700
+F 0 "R91" H 5520 1746 50  0000 L CNN
+F 1 "2k2" H 5520 1655 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 5380 1700 50  0001 C CNN
+F 3 "~" H 5450 1700 50  0001 C CNN
+	1    5450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:3V3 #PW0113
+U 1 1 5F4774EE
+P 5450 1300
+F 0 "#PW0113" H 5500 1200 50  0001 C CNN
+F 1 "3V3" H 5355 1373 50  0000 C CNN
+F 2 "" H 5450 1300 50  0001 C CNN
+F 3 "" H 5450 1300 50  0001 C CNN
+	1    5450 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1850 5450 2050
+Connection ~ 5450 2050
+Wire Wire Line
+	5450 2050 5700 2050
+Wire Wire Line
+	5200 1850 5200 2150
+Connection ~ 5200 2150
+Wire Wire Line
+	5200 2150 5700 2150
+Wire Wire Line
+	5200 1550 5200 1400
+Wire Wire Line
+	5200 1400 5350 1400
+Wire Wire Line
+	5450 1550 5450 1400
+Wire Wire Line
+	5450 1400 5350 1400
+Connection ~ 5350 1400
+$Comp
+L Device:R R121
+U 1 1 5F4BDD45
+P 4500 3800
+F 0 "R121" V 4293 3800 50  0000 C CNN
+F 1 "0R" V 4384 3800 50  0000 C CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 4430 3800 50  0001 C CNN
+F 3 "~" H 4500 3800 50  0001 C CNN
+	1    4500 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C141
+U 1 1 5F4BE75E
+P 5850 3800
+F 0 "C141" V 5750 3900 50  0000 C CNN
+F 1 "5.1pF" V 5950 3950 50  0000 C CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 5888 3650 50  0001 C CNN
+F 3 "~" H 5850 3800 50  0001 C CNN
+	1    5850 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C151
+U 1 1 5F4BEDC1
+P 5850 4100
+F 0 "C151" V 5750 4250 50  0000 C CNN
+F 1 "5.1pF" V 5950 4300 50  0000 C CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 5888 3950 50  0001 C CNN
+F 3 "~" H 5850 4100 50  0001 C CNN
+	1    5850 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 5F4C1D9E
+P 6300 3800
+F 0 "#PWR036" H 6300 3550 50  0001 C CNN
+F 1 "GND" V 6305 3672 50  0000 R CNN
+F 2 "" H 6300 3800 50  0001 C CNN
+F 3 "" H 6300 3800 50  0001 C CNN
+	1    6300 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR046
+U 1 1 5F4C28AD
+P 6300 4100
+F 0 "#PWR046" H 6300 3850 50  0001 C CNN
+F 1 "GND" V 6305 3972 50  0000 R CNN
+F 2 "" H 6300 4100 50  0001 C CNN
+F 3 "" H 6300 4100 50  0001 C CNN
+	1    6300 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Crystal X2
+U 1 1 5F4C4F08
+P 5150 3950
+F 0 "X2" V 5104 4081 50  0000 L CNN
+F 1 "NX3215SA-32.768K" V 5195 4081 50  0000 L CNN
+F 2 "MyfootprintLib:Crystal_SMD_0603-2Pin_6.0x3.5mm" H 5150 3950 50  0001 C CNN
+F 3 "~" H 5150 3950 50  0001 C CNN
+	1    5150 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 3550 4100 3550
+Wire Wire Line
+	4100 3550 4100 3800
+Wire Wire Line
+	4100 3800 4350 3800
+Wire Wire Line
+	4650 3800 5150 3800
+Connection ~ 5150 3800
+Wire Wire Line
+	5150 3800 5700 3800
+Wire Wire Line
+	3600 3650 4000 3650
+Wire Wire Line
+	4000 3650 4000 4100
+Wire Wire Line
+	4000 4100 5150 4100
+Wire Wire Line
+	5150 4100 5700 4100
+Connection ~ 5150 4100
+$Comp
+L MySymLib:SBp Close4
+U 1 1 5F6D6B81
+P 4950 6150
+F 0 "Close4" H 4950 6125 50  0000 C CNN
+F 1 "SBp" H 4950 6034 50  0000 C CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4950 6150 50  0001 C CNN
+F 3 "" H 4950 6150 50  0001 C CNN
+	1    4950 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 6400 4800 6400
+$Comp
+L MySymLib:VDD_MCU #PWR06
+U 1 1 5F709B43
+P 4450 6600
+F 0 "#PWR06" H 4450 6550 50  0001 C CNN
+F 1 "VDD_MCU" V 4655 6628 50  0000 L CNN
+F 2 "" H 4450 6600 50  0001 C CNN
+F 3 "" H 4450 6600 50  0001 C CNN
+	1    4450 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 6400 5500 6400
+$Comp
+L MySymLib:VBAT #PWR0168
+U 1 1 5F71FE11
+P 5200 6300
+F 0 "#PWR0168" H 5700 6200 50  0001 C CNN
+F 1 "VBAT" H 5505 6373 50  0000 C CNN
+F 2 "" H 5200 6100 50  0001 C CNN
+F 3 "" H 5200 6100 50  0000 C CNN
+	1    5200 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 6400
+Wire Wire Line
+	5500 6400 5700 6400
+Connection ~ 5700 6400
+Wire Wire Line
+	5700 6400 6050 6400
+Wire Wire Line
+	5700 5450 6250 5450
+$Comp
+L MySymLib:VDDA #PWR08
+U 1 1 5F737242
+P 5350 5400
+F 0 "#PWR08" H 5650 5400 50  0001 C CNN
+F 1 "VDDA" H 5505 5523 50  0000 C CNN
+F 2 "" H 5350 5400 50  0001 C CNN
+F 3 "" H 5350 5400 50  0001 C CNN
+	1    5350 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 5450
+Wire Wire Line
+	5500 5450 5700 5450
+$Comp
+L MySymLib:VDD_MCU #PWR05
+U 1 1 5F757F5F
+P 4450 5650
+F 0 "#PWR05" H 4450 5600 50  0001 C CNN
+F 1 "VDD_MCU" V 4655 5678 50  0000 L CNN
+F 2 "" H 4450 5650 50  0001 C CNN
+F 3 "" H 4450 5650 50  0001 C CNN
+	1    4450 5650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 5450 4800 5450
+$Comp
+L MySymLib:VDD_MCU #PWR012
+U 1 1 5F77B1B1
+P 9850 5050
+F 0 "#PWR012" H 9850 5000 50  0001 C CNN
+F 1 "VDD_MCU" V 10055 5078 50  0000 L CNN
+F 2 "" H 9850 5050 50  0001 C CNN
+F 3 "" H 9850 5050 50  0001 C CNN
+	1    9850 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 3000 5300 3000
+$Comp
+L MySymLib:3V3 #PWR07
+U 1 1 5F7B96DB
+P 5200 3100
+F 0 "#PWR07" H 5250 3000 50  0001 C CNN
+F 1 "3V3" H 5105 3173 50  0000 C CNN
+F 2 "" H 5200 3100 50  0001 C CNN
+F 3 "" H 5200 3100 50  0001 C CNN
+	1    5200 3100
+	-1   0    0    1   
+$EndComp
+Connection ~ 5300 3000
+Wire Wire Line
+	5300 3000 5450 3000
+$Comp
+L MySymLib:VDD_MCU #PWR018
+U 1 1 5F7D2B74
+P 7850 5450
+F 0 "#PWR018" H 7850 5400 50  0001 C CNN
+F 1 "VDD_MCU" H 8055 5523 50  0000 C CNN
+F 2 "" H 7850 5450 50  0001 C CNN
+F 3 "" H 7850 5450 50  0001 C CNN
+	1    7850 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5550 8050 5550
+Connection ~ 8050 5550
+Text HLabel 1700 1150 1    50   Output ~ 0
+ARD.D1-UART4_TX
+Text HLabel 1750 1250 1    50   Input ~ 0
+ARD.D0-UART4_RX
+Text HLabel 1800 1350 1    50   Output ~ 0
+ARD.D10-SPI_SSN_PWM
+Text HLabel 1850 1450 1    50   BiDi ~ 0
+ARD.D4
+Text HLabel 1900 1550 1    50   BiDi ~ 0
+ARD.D7
+Text HLabel 1950 1650 1    50   BiDi ~ 0
+ARD.D13-SPI1_SCK-LED1
+Text HLabel 1700 1750 3    50   Input ~ 0
+ARD.D12-SPI1_MISO
+Text HLabel 1750 1850 3    50   Output ~ 0
+ARD.D11-SPI1_MOSI_PWM
+Text HLabel 1800 1950 3    50   Output ~ 0
+SPBTLE-RF-RST
+Text HLabel 1850 2450 1    50   BiDi ~ 0
+SYS_JTMS-SWDIO
+Text HLabel 1900 2550 1    50   Output ~ 0
+SYS_JTCK_SWCLK
+Text HLabel 1950 2650 1    50   BiDi ~ 0
+ARD.D9-PWM
+Text HLabel 1700 2950 2    50   Input ~ 0
+ARD.A5-ADC
+Text HLabel 1700 3050 2    50   Input ~ 0
+ARD.A4-ADC
+Text HLabel 1700 3150 2    50   Input ~ 0
+ARD.A3-ADC
+Text HLabel 1700 3250 2    50   Input Italic 0
+ARD.A2-ADC
+Text HLabel 1700 3350 2    50   Input ~ 0
+ARD.A1-ADC
+Text HLabel 1700 3450 2    50   Input ~ 0
+ARD.A0-ADC
+Text HLabel 1700 3550 3    50   Input ~ 0
+VL53L0X_XSHUT
+Text HLabel 1800 3650 3    50   Input ~ 0
+VL53L0X_GPIO1_EXT17
+Text HLabel 3650 1250 1    50   BiDi ~ 0
+ARD.D3-PWM_INTI_EXTI0
+Text HLabel 3700 1350 1    50   Output ~ 0
+ARD.D6-PWM
+Text HLabel 3750 1450 1    50   BiDi ~ 0
+ARD.D8
+Text HLabel 3800 1550 1    50   Output ~ 0
+SYS_JTDO-SWO
+Text HLabel 3850 1650 1    50   BiDi ~ 0
+ARD.D5-PWM
+Text HLabel 3900 1750 1    50   Output ~ 0
+SPSGRF-915-SPI3_CSN
+Text HLabel 4100 2050 2    50   BiDi ~ 0
+ARD.D15-I2C1_SCL
+Text HLabel 4100 2150 2    50   BiDi ~ 0
+ARD.D14-I2CI_SDA
+Text HLabel 4100 2250 2    50   Output ~ 0
+INTERNAL-I2C2_SCL
+Text HLabel 4100 2350 2    50   BiDi ~ 0
+INTERNAL-I2C2_SDA
+Text HLabel 3650 2450 1    50   Output ~ 0
+ISM43362-BOOT0
+Text HLabel 3700 2550 1    50   Output ~ 0
+ISM43362-WAKEUP
+Text HLabel 3750 2650 1    50   Output ~ 0
+LED2
+Text HLabel 3850 2950 1    50   Input ~ 0
+LSM3MDL_DRDY_EXTI8
+Text HLabel 3900 3050 1    50   Output ~ 0
+LED3(WIFI)_&_LED4(BLE)
+Text HLabel 3950 3150 1    50   Output ~ 0
+INTERNAL-SPI3_SCK
+Text HLabel 4000 3250 1    50   Input ~ 0
+INTERNAL-SPI3_MISO
+Text HLabel 3650 3350 3    50   Output ~ 0
+INTERNAL-SPI3_MOSI
+Text HLabel 3700 3450 3    50   Input ~ 0
+BUTTON_EXTI13
+Text HLabel 8900 4350 0    50   BiDi ~ 0
+STM_NRST
+Text HLabel 7800 1050 1    50   Output ~ 0
+PMOD-RESET
+Text HLabel 7850 1150 1    50   Output ~ 0
+PMOD-SPI2_SCK
+Text HLabel 7900 1250 1    50   Input ~ 0
+PMOD-IRQ_EXTI2
+Text HLabel 7950 1350 1    50   Input ~ 0
+PMOD-UART2_CTS-SPI2_MISO
+Text HLabel 8000 1450 1    50   Output ~ 0
+PMOD-UART2_RTS-SPI2_MOSI
+Text HLabel 8050 1550 1    50   Output ~ 0
+PMOD-UART2_TX-SPI2_CSN
+Text HLabel 8100 1650 1    50   Input ~ 0
+PMOD-UART2_RX
+Text HLabel 7800 1850 0    50   Output ~ 0
+INTERNAL-UART3_TX
+Text HLabel 7850 1950 1    50   Input ~ 0
+INTERNAL-UART3_RX
+Text HLabel 7800 2050 3    50   Input ~ 0
+LPS22HB_INT_DRDY_EXTI10
+Text HLabel 7850 2150 3    50   Input ~ 0
+LSM6DSL_INT1_EXTI11
+Text HLabel 7900 2350 3    50   Output ~ 0
+SPBTLE-RF-SPI3_CSN
+Text HLabel 7950 2450 3    50   Input ~ 0
+ARD.D2-INT0_EXTI14
+Text HLabel 8050 2550 3    50   Output ~ 0
+HTS221_DRDY_EXTI15
+Text HLabel 9300 1050 1    50   Output ~ 0
+ISM43362-SPI3_CSN
+Text HLabel 9350 1150 1    50   Input ~ 0
+ISM43362-DRDY_EXTI1
+Text HLabel 9400 1550 1    50   Output ~ 0
+SPSGRF-915-GPIO3_EXTI5
+Text HLabel 9450 1650 1    50   Input ~ 0
+SPBTLE-RF-IRQ_EXTI6
+Text HLabel 9500 1750 1    50   Input Italic 0
+DFSDM1_DATINT
+Text HLabel 9550 1850 1    50   Output Italic 0
+ISM43362-RST
+Text HLabel 9600 1950 1    50   Output Italic 0
+DFSDM1_CKOUT
+Text HLabel 9650 2050 1    50   Output Italic 0
+QUADSPI_CLK
+Text HLabel 9300 2150 3    50   Output ~ 0
+QUADSPI_NCS
+Text HLabel 9350 2250 3    50   BiDi ~ 0
+QUADSPI_BK1_IO0
+Text HLabel 9400 2350 3    50   BiDi ~ 0
+QUADSPI_BK1_IO1
+Text HLabel 9450 2450 3    50   BiDi ~ 0
+QUADSPI_BK1_IO2
+Text HLabel 9550 2550 3    50   BiDi ~ 0
+QUADSPI_BK1_IO3
+Text HLabel 3800 2750 1    50   Input ~ 0
+SPSGRF-915-SDN
+NoConn ~ 3550 2650
+Text GLabel 5450 1400 2    50   Input ~ 0
+3V3
+Text GLabel 5450 3000 2    50   Input ~ 0
+3V3
+Text GLabel 4600 5450 3    50   Input ~ 0
+VDD_MCU
+Text GLabel 5550 5450 3    50   Input ~ 0
+VDDA
+Text GLabel 4600 6400 3    50   Input ~ 0
+VDD_MCU
+Text GLabel 5450 6400 3    50   Input ~ 0
+5V_VBAT
+Text GLabel 7950 5550 3    50   Input ~ 0
+VDD_MCU
+Text GLabel 9550 5250 1    50   Input ~ 0
+VDD_MCU
+Text GLabel 1300 6800 1    50   Input ~ 0
+VDD_MCU
+Text GLabel 1400 7100 3    50   Input ~ 0
+GND
+Wire Wire Line
+	6000 3800 6300 3800
+Wire Wire Line
+	6000 4100 6300 4100
+Text GLabel 6150 3800 1    50   Input ~ 0
+GND
+Text GLabel 6200 4100 3    50   Input ~ 0
+GND
+Wire Wire Line
+	8050 5850 8050 6000
+Wire Wire Line
+	7250 5350 7400 5350
+Wire Wire Line
+	7250 5450 7400 5450
+Text GLabel 7350 5450 3    50   Input ~ 0
+GND
+Text GLabel 7350 5350 1    50   Input ~ 0
+GND
+Text GLabel 8050 5950 2    50   Input ~ 0
+GND
+Wire Wire Line
+	9450 5550 9650 5550
+Text GLabel 9550 5550 3    50   Input ~ 0
+GND
+Text GLabel 7400 6100 2    50   Input ~ 0
+GND
+Wire Wire Line
+	8350 4800 8600 4800
+Text GLabel 8450 4800 1    50   Input ~ 0
+GND
+Text GLabel 6350 6150 3    50   Input ~ 0
+3V3
+Wire Wire Line
+	5700 6900 5700 6700
+Text GLabel 5700 6800 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5700 5900 5700 5750
+Wire Wire Line
+	5250 5900 5250 5750
+Text GLabel 5700 5800 2    50   Input ~ 0
+GND
+Text GLabel 5250 5800 2    50   Input ~ 0
+GND
+Wire Wire Line
+	2850 4950 3100 4950
+Text GLabel 2950 5250 3    50   Input ~ 0
+GND
+Text GLabel 2950 4950 1    50   Input ~ 0
+GND
+$Comp
+L MySymLib:3V3 #PWR0148
+U 1 1 600839AB
+P 6100 6250
+F 0 "#PWR0148" H 6150 6150 50  0001 C CNN
+F 1 "3V3" H 6005 6323 50  0000 C CNN
+F 2 "" H 6100 6250 50  0001 C CNN
+F 3 "" H 6100 6250 50  0001 C CNN
+	1    6100 6250
+	-1   0    0    1   
+$EndComp
+Connection ~ 6200 6150
+Wire Wire Line
+	6200 6150 6150 6150
+Wire Wire Line
+	2850 5250 3100 5250
+Wire Wire Line
+	9450 5250 9750 5250
+$EndSCHEMATC

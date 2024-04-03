@@ -1,0 +1,23 @@
+"Source:","/home/nicthe/Documents/ESHD/Project_NNJCM_FRAM_Module/Project_NNJCM_FRAM_Module.sch"
+"Date:","Tue 08 Sep 2020 10:06:08 PM EDT"
+"Tool:","Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","4"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Arrow Part Number","Description","Height","Manufacturer_Name","Manufacturer_Part_Number","Mouser Part Number","Mouser Price/Stock"
+"","","C1","10uF","Device:C","MyfootprintLib:C_0402_1005Metric","~","","","","","","",""
+"","","JPI1","Conn_01x08_Female","Project_NNJCM_FRAM_Module-rescue:Conn_01x08_Female-MySymLib","MyfootprintLib:PinHeader_1x08_P1.00mm_Vertical","~","","","","","","",""
+"","","R2","10k","Device:R","MyfootprintLib:R_0402_1005Metric","~","","","","","","",""
+"","","V1","MB85RS64VPNF-G-JNERE1","Project_NNJCM_FRAM_Module-rescue:MB85RS64VPNF-G-JNERE1-MySymLib","MyfootprintLib:SOIC127P600X175-8N","http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS64V-DS501-00015-4v0-E.pdf","MB85RS64VPNF-G-JNERE1","64Kbit 8K x 8 FRAM SPI interface","1.75","FUJITSU","MB85RS64VPNF-G-JNERE1","N/A","https://www.mouser.co.uk/ProductDetail/Fujitsu/MB85RS64VPNF-G-JNERE1?qs=2kOmHSv6VfSTetts%252BXdrBQ%3D%3D"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Arrow Part Number","Description","Height","Manufacturer_Name","Manufacturer_Part_Number","Mouser Part Number","Mouser Price/Stock"
+"1","1","C1","10uF","Device:C","MyfootprintLib:C_0402_1005Metric","~","","","","","","",""
+"2","1","JPI1","Conn_01x08_Female","Project_NNJCM_FRAM_Module-rescue:Conn_01x08_Female-MySymLib","MyfootprintLib:PinHeader_1x08_P1.00mm_Vertical","~","","","","","","",""
+"3","1","R2","10k","Device:R","MyfootprintLib:R_0402_1005Metric","~","","","","","","",""
+"4","1","V1","MB85RS64VPNF-G-JNERE1","Project_NNJCM_FRAM_Module-rescue:MB85RS64VPNF-G-JNERE1-MySymLib","MyfootprintLib:SOIC127P600X175-8N","http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS64V-DS501-00015-4v0-E.pdf","MB85RS64VPNF-G-JNERE1","64Kbit 8K x 8 FRAM SPI interface","1.75","FUJITSU","MB85RS64VPNF-G-JNERE1","N/A","https://www.mouser.co.uk/ProductDetail/Fujitsu/MB85RS64VPNF-G-JNERE1?qs=2kOmHSv6VfSTetts%252BXdrBQ%3D%3D"

@@ -1,0 +1,449 @@
+101962298966474
+MyfootprintLib
+2.5MM,HDR,8POS,VERTICAL, CONNECTOR-440052-8
+
+
+0
+8
+8
+MyfootprintLib
+Altech_AK300_1x06_P5.00mm_45-Degree
+Altech AK300 serie terminal block (Script generated with StandardBox.py) (http://www.altechcorp.com/PDFS/PCBMETRC.PDF)
+Altech AK300 serie connector
+0
+6
+6
+MyfootprintLib
+Altech_AK300_1x08_P5.00mm_45-Degree
+Altech AK300 serie terminal block (Script generated with StandardBox.py) (http://www.altechcorp.com/PDFS/PCBMETRC.PDF)
+Altech AK300 serie connector
+0
+8
+8
+MyfootprintLib
+Altech_AK300_1x10_P5.00mm_45-Degree
+Altech AK300 serie terminal block (Script generated with StandardBox.py) (http://www.altechcorp.com/PDFS/PCBMETRC.PDF)
+Altech AK300 serie connector
+0
+10
+10
+MyfootprintLib
+BatteryHolder_Seiko_MS621F
+Seiko MS621F, https://www.sii.co.jp/en/me/files/2014/02/file_EXTENDED_PRDCT_SPEC_75_FILE_11.jpg
+Seiko MS621F
+0
+2
+2
+MyfootprintLib
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MyfootprintLib
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+MyfootprintLib
+C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=7.5mm, , length*diameter=3.8*2.6mm^2, http://www.vishay.com/docs/45231/arseries.pdf
+C Axial series Axial Horizontal pin pitch 7.5mm  length 3.8mm diameter 2.6mm
+0
+2
+2
+MyfootprintLib
+C_Disc_D3.0mm_W1.6mm_P2.50mm
+C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor
+0
+2
+2
+MyfootprintLib
+Crystal_SMD_0603-2Pin_6.0x3.5mm
+SMD Crystal SERIES SMD0603/2 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-2.pdf, 6.0x3.5mm^2 package
+SMD SMT crystal
+0
+2
+2
+MyfootprintLib
+HEADER 8X1_plus_1shield_Femele_SMD-TE_1734742-8-no
+
+
+0
+10
+10
+MyfootprintLib
+HEADER_2X5-64901029522
+WR-MPC4-4.20mm Male Dual Row Angled Header,10 pins
+
+0
+10
+10
+MyfootprintLib
+HEADER_6X1_SAMTEC_MTSW-106-07-L-S-105
+
+
+0
+6
+6
+MyfootprintLib
+HEADER_8X1_FEMALE-SAMTEC-TSM-108-01-X-SV
+translated Allegro footprint
+
+0
+8
+8
+MyfootprintLib
+Header 8x1_Femele_SMD-no serie-TE_7-188275-8
+
+
+0
+8
+8
+MyfootprintLib
+Header 10x1_Female_TE_5-534237-8-ok
+
+
+0
+10
+10
+MyfootprintLib
+INVENTEK_ISM43362-M3G-L44-E_C2.5.0.3_SPI
+
+
+0
+44
+44
+MyfootprintLib
+JAE_LY20-4P-DT1_2x02_P2.00mm_Vertical
+Molex LY 20 series connector, LY20-4P-DT1, 2 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ103130.pdf), generated with kicad-footprint-generator
+connector JAE  side entry
+0
+4
+4
+MyfootprintLib
+JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical
+JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH vertical
+0
+2
+2
+MyfootprintLib
+JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical
+JST GH series connector, BM08B-GHS-TBT (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator
+connector JST GH side entry
+0
+10
+9
+MyfootprintLib
+LD1117S33TR-SOT223
+
+
+0
+4
+4
+MyfootprintLib
+LD1117S50TR-SOT223
+
+
+0
+4
+4
+MyfootprintLib
+LED_0402_1005Metric
+LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+MyfootprintLib
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+MyfootprintLib
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z1.6mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins
+0
+2
+2
+MyfootprintLib
+LGA-12_2x2mm_P0.5mm
+LGA12
+lga land grid array
+0
+12
+12
+MyfootprintLib
+LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y
+LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lsm6ds3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LGA NoLead
+0
+14
+14
+MyfootprintLib
+LGA-16_4x4mm_P0.65mm_LayoutBorder4x4y
+LGA, 16 Pin (http://www.st.com/resource/en/datasheet/l3gd20.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LGA NoLead
+0
+16
+16
+MyfootprintLib
+LIS3MDL_LGA-12
+
+
+0
+12
+12
+MyfootprintLib
+LPS22HB_LGA10R50P2X3_200X200X80
+
+
+0
+10
+10
+MyfootprintLib
+LQFP-100_14x14mm_P0.5mm
+LQFP, 100 Pin (https://www.nxp.com/docs/en/package-information/SOT407-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+100
+100
+MyfootprintLib
+LSM6DSLTR_PQFN50P300X250X86-14N
+
+
+0
+14
+14
+MyfootprintLib
+LT1963AES8-3.3PBF-SOIC127P600X175-8N
+
+
+0
+8
+8
+MyfootprintLib
+L_0402_1005Metric
+Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+MyfootprintLib
+L_0603_1608Metric
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+MyfootprintLib
+MIC_MP34DT01-M
+
+
+0
+8
+8
+MyfootprintLib
+MSOP-12_MSE-no
+
+
+0
+13
+13
+MyfootprintLib
+MX25R6435FZAIH0_SON80P400X400X60-9N
+
+
+0
+9
+9
+MyfootprintLib
+PQFN35P200X200X100-14N
+
+
+0
+14
+14
+MyfootprintLib
+PQFN50P300X250X86-14N
+
+
+0
+14
+14
+MyfootprintLib
+PinHeader_1x08_P1.00mm_Vertical
+Through hole straight pin header, 1x08, 1.00mm pitch, single row
+Through hole pin header THT 1x08 1.00mm single row
+0
+8
+8
+MyfootprintLib
+PinHeader_2x05_P2.54mm_Vertical
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+MyfootprintLib
+PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left
+surface-mounted straight socket strip, 1x08, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x08 2.54mm single row style1 pin1 left
+0
+8
+8
+MyfootprintLib
+PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Right
+surface-mounted straight socket strip, 1x08, 2.54mm pitch, single row, style 2 (pin 1 right) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x08 2.54mm single row style2 pin1 right
+0
+8
+8
+MyfootprintLib
+PinSocket_2x05_P2.00mm_Vertical
+Through hole straight socket strip, 2x05, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x05 2.00mm double row
+0
+10
+10
+MyfootprintLib
+PinSocket_2x05_P2.54mm_Vertical
+Through hole straight socket strip, 2x05, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x05 2.54mm double row
+0
+10
+10
+MyfootprintLib
+PinSocket_2x06_P2.00mm_Vertical
+Through hole straight socket strip, 2x06, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x06 2.00mm double row
+0
+12
+12
+MyfootprintLib
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+MyfootprintLib
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+MyfootprintLib
+R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical
+Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=1.9mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Vertical pin pitch 1.9mm 0.167W length 3.6mm diameter 1.6mm
+0
+2
+2
+MyfootprintLib
+SOIC127P600X175-8N
+FPT-8P-M02
+Integrated Circuit
+0
+8
+8
+MyfootprintLib
+SOT95P280X145-5N
+
+
+0
+5
+5
+MyfootprintLib
+ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y
+ST  HLGA, 10 Pin (https://www.st.com/resource/en/datasheet/lps25hb.pdf#page=46), generated with kicad-footprint-generator ipc_noLead_generator.py
+ST HLGA NoLead
+0
+10
+10
+MyfootprintLib
+ST_SPBTLE
+Bluetooth Low Energy Module
+ble module st bluetooth
+0
+11
+11
+MyfootprintLib
+SW_BUTT-2
+
+
+0
+2
+2
+MyfootprintLib
+SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 1x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+2
+2
+MyfootprintLib
+SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+2
+2
+MyfootprintLib
+SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+MyfootprintLib
+TAG-CONNECT_TC2050-IDC-NL
+
+
+0
+10
+10
+MyfootprintLib
+TE_281742-5
+
+
+0
+10
+10
+MyfootprintLib
+XCVR_SPBTLE-RF
+
+
+0
+11
+11
+MyfootprintLib
+XCVR_SPSGRF-915
+
+
+0
+11
+11
+MyfootprintLib
+XDCR_HTS221
+
+
+0
+6
+6
+MyfootprintLib
+XDCR_VL53L0CXV0DH
+
+
+0
+12
+12

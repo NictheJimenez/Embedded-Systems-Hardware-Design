@@ -1,0 +1,156 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3V3
+D Power simbol create a global label with a name "3V3"
+K power-flag
+$ENDCMP
+#
+$CMP 3V3_ST_LINK
+D Power simbol create a global label with a name "3V3_WIFI"
+K power-flag
+$ENDCMP
+#
+$CMP 3V3_WIFI
+D Power simbol create a global label with a name "3V3_WIFI"
+K power-flag
+$ENDCMP
+#
+$CMP 5V
+D Power simbol create a global label with a name "5V"
+K power-flag
+$ENDCMP
+#
+$CMP 5V_ARD
+D Power simbol creates a global label with name "5V_ARD"
+K power-flag
+$ENDCMP
+#
+$CMP 5V_ST_LINK
+D Power simbol create a global label with name "5V_ST_LINK"
+K power-flag
+$ENDCMP
+#
+$CMP 5V_USB_CHANGER
+D Power simbol create a global label with a name "5V_USB_CHANGER"
+K power-flag
+$ENDCMP
+#
+$CMP 5V_USB_FS
+D Power simbol create a global label with a name  "5V_USB_FS"
+K power-flag
+$ENDCMP
+#
+$CMP BUTT-2
+F https://www.snapeda.com/parts/BUTT-2/Gravitech/view-part/?ref=search&t=Push%20button%20switch,%20generic,%20two%20pins
+$ENDCMP
+#
+$CMP HEADER_2X5-64901029522
+F https://www.snapeda.com/parts/64901029522/Wurth%20Electronics/datasheet/
+$ENDCMP
+#
+$CMP HEADER_6X1-MTSW-106-07-L-S-105
+F https://www.snapeda.com/parts/MTSW-106-07-L-S-105/Samtec/datasheet/
+$ENDCMP
+#
+$CMP HEADER_8X1-TSM-108-01-S-SV-P-TR
+F https://www.snapeda.com/parts/TSM-108-01-S-SV-P-TR/Samtec/datasheet/
+$ENDCMP
+#
+$CMP HEADER_8X1-TSM-108-01-S-SV-P-TR-CN2
+F https://www.snapeda.com/parts/TSM-108-01-S-SV-P-TR/Samtec/datasheet/
+$ENDCMP
+#
+$CMP HEADER_8X1-TSM-108-01-S-SV-P-TR-CN3
+F https://www.snapeda.com/parts/TSM-108-01-S-SV-P-TR/Samtec/datasheet/
+$ENDCMP
+#
+$CMP HEADER_HE14_RA_2X5_P
+F https://www.snapeda.com/parts/281742-5/TE%20Connectivity/view-part/?ref=search&t=header%202x5%20POWER%20IN%20OUT
+$ENDCMP
+#
+$CMP HTS221
+F https://www.st.com/content/ccc/resource/technical/document/technical_note/c1/d1/80/37/c3/ad/4b/56/DM00208005.pdf/files/DM00208005.pdf/jcr:content/translations/en.DM00208005.pdf
+$ENDCMP
+#
+$CMP Header_10x1_Femeale-5-534237-8
+F https://www.snapeda.com/parts/5-534237-8/TE%20Connectivity/datasheet/
+$ENDCMP
+#
+$CMP ISM43362-M3G-L44
+F https://www.inventeksys.com/wp-content/uploads/ISM43362_M3G_L44_Functional_Spec.pdf
+$ENDCMP
+#
+$CMP LD1117S33TR
+F https://www.snapeda.com/parts/LD1117S33TR/STMicroelectronics/datasheet/
+$ENDCMP
+#
+$CMP LD1117S50TR
+F https://www.snapeda.com/parts/LD1117S50TR/STMicroelectronics/datasheet/
+$ENDCMP
+#
+$CMP LDO_3V3
+D Power simbol create a global label with a name "LDO_3V3"
+K power-flag
+$ENDCMP
+#
+$CMP LIS3MDL
+F https://www.st.com/content/ccc/resource/technical/document/application_note/69/d7/05/fe/a9/3e/4b/ea/DM00136626.pdf/files/DM00136626.pdf/jcr:content/translations/en.DM00136626.pdf
+$ENDCMP
+#
+$CMP LPS22HB
+F https://www.st.com/content/ccc/resource/technical/document/application_note/group0/b3/06/db/6d/ae/ee/46/c0/DM00269729/files/DM00269729.pdf/jcr:content/translations/en.DM00269729.pdf
+$ENDCMP
+#
+$CMP LSM6DSLTR
+F https://www.st.com/content/ccc/resource/technical/document/application_note/group0/26/07/3f/bf/12/55/47/62/DM00402563/files/DM00402563.pdf/jcr:content/translations/en.DM00402563.pdf
+$ENDCMP
+#
+$CMP LTI963EST-3.3
+F https://www.snapeda.com/parts/LT1963AES8-3.3%23PBF/Analog%20Devices/datasheet/
+$ENDCMP
+#
+$CMP PWR_FLAG_IN
+K POWER_FLAG
+$ENDCMP
+#
+$CMP SPSGRF
+F https://www.st.com/resource/en/datasheet/spsgrf.pdf
+$ENDCMP
+#
+$CMP ST_SPBTLE_RF
+F https://www.st.com/resource/en/datasheet/spbtle-rf.pdf
+$ENDCMP
+#
+$CMP Solder_Jumper_Rect_Open
+D Solder_Jumper_Rect_Open
+$ENDCMP
+#
+$CMP TC2050-IDC-NL
+F https://www.snapeda.com/parts/TC2050-IDC-NL/Tag-Connect%20LLC/datasheet/
+$ENDCMP
+#
+$CMP VBAT
+D Power simbol create a global label with a name "VBAT"
+K power-flag
+$ENDCMP
+#
+$CMP VDDA
+D Power simbol create a global label with a name "VDDA"
+K power-flag
+$ENDCMP
+#
+$CMP VDD_MCU
+D Power simbol create a global label with a name "VDD_MCU"
+K power-flag
+$ENDCMP
+#
+$CMP VIN
+D Power simbol create a global simbol with a name "VIN"
+K power-flag
+$ENDCMP
+#
+$CMP VL53L0X
+F https://www.st.com/resource/en/datasheet/vl53l0x.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LIS3MDL
+#
+DEF LIS3MDL IC 0 40 Y Y 1 L N
+F0 "IC" -199 683 50 H V L BNN
+F1 "LIS3MDL" -209 -926 50 H V L BNN
+F2 "LGA-12" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -600 600 -600 -800 N
+P 2 0 0 16 -600 -800 600 -800 N
+P 2 0 0 16 600 -800 600 600 N
+P 2 0 0 16 600 600 -600 600 N
+X CS 10 800 -100 200 L 40 40 0 0 P 
+X GND 3 -800 -700 200 R 40 40 0 0 W 
+X RES_2 12 -800 -500 200 R 40 40 0 0 P 
+X C1 4 -800 0 200 R 40 40 0 0 N 
+X DRDY 8 800 -500 200 L 40 40 0 0 N 
+X RES_1 2 -800 -400 200 R 40 40 0 0 P 
+X SCL/SPC 1 800 500 200 L 40 40 0 0 P 
+X SDA/SDI/SDO 11 800 300 200 L 40 40 0 0 O 
+X SD0/SA1 9 800 100 200 L 40 40 0 0 O 
+X VDD 5 -800 500 200 R 40 40 0 0 W 
+X VDD_IO 6 -800 300 200 R 40 40 0 0 W 
+X INT 7 800 -300 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

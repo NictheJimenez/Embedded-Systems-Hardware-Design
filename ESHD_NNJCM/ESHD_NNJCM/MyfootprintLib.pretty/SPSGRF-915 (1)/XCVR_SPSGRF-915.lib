@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SPSGRF-915
+#
+DEF SPSGRF-915 U 0 40 Y Y 1 L N
+F0 "U" -481 531 50 H V L BNN
+F1 "SPSGRF-915" -492 -572 50 H V L BNN
+F2 "XCVR_SPSGRF-915" 0 0 50 H I L BNN
+F3 "ST Microelectronics" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -500 500 -500 -500 N
+P 2 0 0 10 -500 -500 500 -500 N
+P 2 0 0 10 500 -500 500 500 N
+P 2 0 0 10 500 500 -500 500 N
+X GPIO[0] 4 -700 -100 200 R 40 40 0 0 B 
+X GPIO[1] 3 -700 -200 200 R 40 40 0 0 B 
+X GPIO[2] 2 -700 -300 200 R 40 40 0 0 B 
+X GPIO[3] 1 -700 -400 200 R 40 40 0 0 B 
+X VIN 5 700 400 200 L 40 40 0 0 W 
+X GND 6 700 -400 200 L 40 40 0 0 W 
+X SPI_CLK 7 -700 300 200 R 40 40 0 0 I 
+X SPI_MISO 8 700 100 200 L 40 40 0 0 O 
+X SPI_MOSI 9 -700 200 200 R 40 40 0 0 I 
+X SPI_CS 10 -700 400 200 R 40 40 0 0 I 
+X SDN 11 -700 100 200 R 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library

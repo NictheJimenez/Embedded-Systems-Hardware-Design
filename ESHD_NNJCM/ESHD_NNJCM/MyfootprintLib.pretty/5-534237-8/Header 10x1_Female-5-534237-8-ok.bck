@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 5-534237-8
+#
+DEF 5-534237-8 J 0 40 Y Y 1 L N
+F0 "J" -200 661 50 H V L BNN
+F1 "5-534237-8" -200 -601 50 H V L BNN
+F2 "TE_5-534237-8" 0 0 50 H I L BNN
+F3 "Compliant" 0 0 50 H I L BNN
+F4 "10" 0 0 50 H I L BNN
+F5 "2.54" 0 0 50 H I L BNN
+F6 "Connector" 0 0 50 H I L BNN
+F7 "5-534237-8" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 100 600 100 -500 N
+P 2 0 0 6 100 -500 -200 -500 N
+P 2 0 0 6 -200 -500 -200 600 N
+P 2 0 0 6 -200 600 100 600 N
+X 1 1 200 500 100 L 40 40 0 0 P 
+X 2 2 200 400 100 L 40 40 0 0 P 
+X 3 3 200 300 100 L 40 40 0 0 P 
+X 4 4 200 200 100 L 40 40 0 0 P 
+X 5 5 200 100 100 L 40 40 0 0 P 
+X 6 6 200 0 100 L 40 40 0 0 P 
+X 7 7 200 -100 100 L 40 40 0 0 P 
+X 8 8 200 -200 100 L 40 40 0 0 P 
+X 9 9 200 -300 100 L 40 40 0 0 P 
+X 10 10 200 -400 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

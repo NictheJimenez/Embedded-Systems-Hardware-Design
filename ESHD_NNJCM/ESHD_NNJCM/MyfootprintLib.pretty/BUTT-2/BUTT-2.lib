@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BUTT-2
+#
+DEF BUTT-2 S 0 40 Y N 1 L N
+F0 "S" -200 150 50 H V L BNN
+F1 "BUTT-2" -200 -150 50 H V L BNN
+F2 "SW_BUTT-2" 0 0 50 H I L BNN
+F3 "N/A" 0 0 50 H I L BNN
+F4 "Manufactrer Recommendations" 0 0 50 H I L BNN
+F5 "9.5 mm" 0 0 50 H I L BNN
+F6 "Gravitech" 0 0 50 H I L BNN
+DRAW
+C 81 0 20 0 0 6 N
+C -81 0 20 0 0 6 N
+P 2 0 0 6 -100 63 0 63 N
+P 2 0 0 6 0 63 100 63 N
+P 2 0 0 6 0 63 0 138 N
+X ~ 1 -300 0 200 R 40 40 0 0 P 
+X ~ 2 300 0 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

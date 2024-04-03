@@ -1,0 +1,230 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "FRAM Module"
+Date "09/08/2020"
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 4200 2700 0    50   ~ 0
+CS
+Text Label 4200 2800 0    50   ~ 0
+MISO
+Text Label 4200 2900 0    50   ~ 0
+WP
+$Comp
+L Device:R R2
+U 1 1 5F259EFF
+P 4000 2750
+F 0 "R2" H 4070 2796 50  0000 L CNN
+F 1 "10k" H 4070 2705 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 3930 2750 50  0001 C CNN
+F 3 "~" H 4000 2750 50  0001 C CNN
+	1    4000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F3073FB
+P 6200 2850
+F 0 "C1" H 6315 2896 50  0000 L CNN
+F 1 "10uF" H 6315 2805 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 6238 2700 50  0001 C CNN
+F 3 "~" H 6200 2850 50  0001 C CNN
+	1    6200 2850
+	1    0    0    -1  
+$EndComp
+Text Label 5900 2800 0    50   ~ 0
+NC
+Text Label 5900 2900 0    50   ~ 0
+SCK
+Text Label 5900 3000 0    50   ~ 0
+MOSI
+Text Label 3400 2900 0    50   ~ 0
+NC
+Text Label 3400 3000 0    50   ~ 0
+SCK
+Text Label 3400 3100 0    50   ~ 0
+MISO
+Text Label 3400 3200 0    50   ~ 0
+MOSI
+Text Label 3400 3300 0    50   ~ 0
+CS
+Text Label 3400 3400 0    50   ~ 0
+WP
+$Comp
+L power:GND #PWR01
+U 1 1 5F3A9BD7
+P 3200 2800
+F 0 "#PWR01" H 3200 2550 50  0001 C CNN
+F 1 "GND" V 3205 2672 50  0000 R CNN
+F 2 "Battery:BatteryHolder_Eagle_12BH611-GR" H 3200 2800 50  0001 C CNN
+F 3 "" H 3200 2800 50  0001 C CNN
+	1    3200 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5F3AB49C
+P 6200 3000
+F 0 "#PWR03" H 6200 2750 50  0001 C CNN
+F 1 "GND" H 6205 2827 50  0000 C CNN
+F 2 "" H 6200 3000 50  0001 C CNN
+F 3 "" H 6200 3000 50  0001 C CNN
+	1    6200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3100 3400 3100
+Wire Wire Line
+	3200 3300 3400 3300
+Wire Wire Line
+	3200 3400 3400 3400
+Wire Wire Line
+	5600 2800 5900 2800
+Wire Wire Line
+	5600 2900 5900 2900
+Wire Wire Line
+	4200 2700 4500 2700
+Wire Wire Line
+	4200 2800 4500 2800
+Wire Wire Line
+	4000 2900 4500 2900
+Wire Wire Line
+	3200 3200 3400 3200
+$Comp
+L power:GND #PWR0101
+U 1 1 5FB57BB8
+P 4250 3000
+F 0 "#PWR0101" H 4250 2750 50  0001 C CNN
+F 1 "GND" H 4255 2827 50  0000 C CNN
+F 2 "" H 4250 3000 50  0001 C CNN
+F 3 "" H 4250 3000 50  0001 C CNN
+	1    4250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3000 5900 3000
+Wire Wire Line
+	3200 2900 3400 2900
+Wire Wire Line
+	3200 3000 3400 3000
+$Comp
+L MySymLib:3V3 #PWR0102
+U 1 1 601481E8
+P 4100 2350
+F 0 "#PWR0102" H 4150 2250 50  0001 C CNN
+F 1 "3V3" H 4005 2423 50  0000 C CNN
+F 2 "" H 4100 2350 50  0001 C CNN
+F 3 "" H 4100 2350 50  0001 C CNN
+	1    4100 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2600 4000 2450
+$Comp
+L MySymLib:3V3 #PWR0103
+U 1 1 6014C4AC
+P 6300 2400
+F 0 "#PWR0103" H 6350 2300 50  0001 C CNN
+F 1 "3V3" H 6205 2473 50  0000 C CNN
+F 2 "" H 6300 2400 50  0001 C CNN
+F 3 "" H 6300 2400 50  0001 C CNN
+	1    6300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2500 6200 2700
+$Comp
+L MySymLib:3V3 #PWR0104
+U 1 1 6014D6BF
+P 3300 2250
+F 0 "#PWR0104" H 3350 2150 50  0001 C CNN
+F 1 "3V3" H 3205 2323 50  0000 C CNN
+F 2 "" H 3300 2250 50  0001 C CNN
+F 3 "" H 3300 2250 50  0001 C CNN
+	1    3300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2350 3200 2550
+$Comp
+L MySymLib:Conn-1x8 U1
+U 1 1 5F6C8C8B
+P 3350 2700
+F 0 "U1" H 3713 2485 50  0000 C CNN
+F 1 "Conn-1x8" H 3713 2576 50  0000 C CNN
+F 2 "MyfootprintLib:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical" H 3350 2700 50  0001 C CNN
+F 3 "" H 3350 2700 50  0001 C CNN
+	1    3350 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L MySymLib:MB85RS64VPNF-G-JNERE1-MySymLib IC1
+U 1 1 5F6D97D2
+P 4500 2700
+F 0 "IC1" H 5050 2965 50  0000 C CNN
+F 1 "MB85RS64VPNF-G-JNERE1-MySymLib" H 5300 2200 50  0000 C CNN
+F 2 "MyfootprintLib:SOIC127P600X175-8N" H 5450 2800 50  0001 L CNN
+F 3 "http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS64V-DS501-00015-4v0-E.pdf" H 5450 2700 50  0001 L CNN
+F 4 "64Kbit 8K x 8 FRAM SPI interface" H 5450 2600 50  0001 L CNN "Description"
+F 5 "1.75" H 5450 2500 50  0001 L CNN "Height"
+F 6 "FUJITSU" H 5450 2400 50  0001 L CNN "Manufacturer_Name"
+F 7 "MB85RS64VPNF-G-JNERE1" H 5450 2300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MB85RS64VPNF-G-JNERE1" H 5450 2200 50  0001 L CNN "Arrow Part Number"
+F 9 "N/A" H 5450 2000 50  0001 L CNN "Mouser Part Number"
+F 10 "https://www.mouser.co.uk/ProductDetail/Fujitsu/MB85RS64VPNF-G-JNERE1?qs=2kOmHSv6VfSTetts%252BXdrBQ%3D%3D" H 5450 1900 50  0001 L CNN "Mouser Price/Stock"
+	1    4500 2700
+	1    0    0    -1  
+$EndComp
+Text Label 6200 2600 0    50   ~ 0
+3V3
+Text Label 4000 2500 0    50   ~ 0
+3V3
+Text Label 3200 2450 0    50   ~ 0
+3V3
+Text Label 3200 2800 0    50   ~ 0
+GND
+Text Label 4350 3000 0    50   ~ 0
+GND
+Text Label 6200 3000 0    50   ~ 0
+GND
+Wire Wire Line
+	5600 2700 6200 2700
+Wire Wire Line
+	4250 3000 4500 3000
+Connection ~ 6200 2700
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F6F05F6
+P 3200 2550
+F 0 "#FLG0101" H 3200 2625 50  0001 C CNN
+F 1 "PWR_FLAG" V 3200 2678 50  0000 L CNN
+F 2 "" H 3200 2550 50  0001 C CNN
+F 3 "~" H 3200 2550 50  0001 C CNN
+	1    3200 2550
+	0    1    1    0   
+$EndComp
+Connection ~ 3200 2550
+Wire Wire Line
+	3200 2550 3200 2700
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F6F0DFD
+P 3200 2800
+F 0 "#FLG0102" H 3200 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 2973 50  0000 C CNN
+F 2 "" H 3200 2800 50  0001 C CNN
+F 3 "~" H 3200 2800 50  0001 C CNN
+	1    3200 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 2800
+$EndSCHEMATC

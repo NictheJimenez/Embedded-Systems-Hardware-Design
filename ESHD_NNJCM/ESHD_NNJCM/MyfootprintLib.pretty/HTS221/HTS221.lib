@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# HTS221
+#
+DEF HTS221 U 0 40 Y Y 1 L N
+F0 "U" -521 322 50 H V L BNN
+F1 "HTS221" -501 -412 50 H V L BNN
+F2 "XDCR_HTS221" 0 0 50 H I L BNN
+F3 "Manufacturer Recommendations" 0 0 50 H I L BNN
+F4 "Rev 1" 0 0 50 H I L BNN
+F5 "STMicroelectronics" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 500 300 500 -300 N
+P 2 0 0 10 500 -300 -500 -300 N
+P 2 0 0 10 -500 -300 -500 300 N
+P 2 0 0 10 -500 300 500 300 N
+X VDD 1 600 200 100 L 40 40 0 0 W 
+X SCL/SPC 2 -600 0 100 R 40 40 0 0 I C
+X DRDY 3 600 0 100 L 40 40 0 0 O 
+X SDA/SDI/SDO 4 -600 -100 100 R 40 40 0 0 B 
+X CS 6 -600 200 100 R 40 40 0 0 I 
+X GND 5 600 -200 100 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,905 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title "ARDUINO UNO connector, PMOD,  SWD INTERFACE"
+Date "09/03/2020"
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R14
+U 1 1 5F3B8075
+P 1300 1300
+F 0 "R14" V 1093 1300 50  0000 C CNN
+F 1 "1k" V 1184 1300 50  0000 C CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 1230 1300 50  0001 C CNN
+F 3 "~" H 1300 1300 50  0001 C CNN
+	1    1300 1300
+	0    1    1    0   
+$EndComp
+Text GLabel 1100 1500 0    50   BiDi ~ 0
+STM_NRST
+Text GLabel 5450 1100 0    50   Input ~ 0
+ARD.D15-I2C1_SCL
+Text GLabel 5450 1200 0    50   BiDi ~ 0
+ARD.D14-I2CI_SDA
+Text GLabel 5400 1500 0    50   Input ~ 0
+ARD.D13-SPI1_SCK-LED1
+Text GLabel 5400 1600 0    50   Output ~ 0
+ARD.D12-SPI1_MISO
+Text GLabel 5400 1700 0    50   Input ~ 0
+ARD.D11-SPI1_MOSI_PWM
+Text GLabel 5400 1800 0    50   Input ~ 0
+ARD.D10-SPI_SSN_PWM
+Text GLabel 5400 1900 0    50   BiDi ~ 0
+ARD.D9-PWM
+Text GLabel 5400 2000 0    50   BiDi ~ 0
+ARD.D8
+$Comp
+L power:GND #PWR098
+U 1 1 5F43B7B8
+P 4000 1850
+F 0 "#PWR098" H 4000 1600 50  0001 C CNN
+F 1 "GND" H 4005 1677 50  0000 C CNN
+F 2 "" H 4000 1850 50  0001 C CNN
+F 3 "" H 4000 1850 50  0001 C CNN
+	1    4000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C40
+U 1 1 5F43BFCD
+P 4000 1550
+F 0 "C40" H 4115 1596 50  0000 L CNN
+F 1 "100nF" H 4115 1505 50  0000 L CNN
+F 2 "MyfootprintLib:C_0402_1005Metric" H 4038 1400 50  0001 C CNN
+F 3 "~" H 4000 1550 50  0001 C CNN
+	1    4000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F43C3CA
+P 5750 1400
+F 0 "#PWR0103" H 5750 1150 50  0001 C CNN
+F 1 "GND" V 5755 1272 50  0000 R CNN
+F 2 "" H 5750 1400 50  0001 C CNN
+F 3 "" H 5750 1400 50  0001 C CNN
+	1    5750 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5F43C754
+P 4150 1300
+F 0 "R15" V 3943 1300 50  0000 C CNN
+F 1 "0R" V 4034 1300 50  0000 C CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 4080 1300 50  0001 C CNN
+F 3 "~" H 4150 1300 50  0001 C CNN
+	1    4150 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 1100 5900 1100
+Wire Wire Line
+	5450 1200 5900 1200
+Wire Wire Line
+	5900 2000 5400 2000
+Wire Wire Line
+	5900 1900 5400 1900
+Wire Wire Line
+	5900 1800 5400 1800
+Wire Wire Line
+	5900 1700 5400 1700
+Wire Wire Line
+	5900 1600 5400 1600
+Wire Wire Line
+	5900 1500 5400 1500
+Wire Wire Line
+	5900 1400 5750 1400
+Wire Wire Line
+	4300 1300 5900 1300
+Text GLabel 1450 2850 0    50   Input ~ 0
+ARD.A0-ADC
+Text GLabel 1450 2950 0    50   Input ~ 0
+ARD.A1-ADC
+Text GLabel 1450 3050 0    50   Input ~ 0
+ARD.A2-ADC
+Wire Wire Line
+	1450 2850 1950 2850
+Wire Wire Line
+	1450 2950 1950 2950
+Wire Wire Line
+	1450 3050 1950 3050
+Text GLabel 1450 3150 0    50   Input ~ 0
+ARD.A3-ADC
+Text GLabel 1450 3250 0    50   Input ~ 0
+ARD.A4-ADC
+Text GLabel 1450 3350 0    50   Input ~ 0
+ARD.A5-ADC
+Wire Wire Line
+	1450 3150 1950 3150
+Wire Wire Line
+	1450 3250 1950 3250
+Wire Wire Line
+	1450 3350 1950 3350
+Text GLabel 5400 2800 2    50   BiDi ~ 0
+ARD.D7
+Text GLabel 5400 2900 2    50   BiDi ~ 0
+ARD.D6-PWM
+Text GLabel 5400 3000 2    50   BiDi ~ 0
+ARD.D5-PWM
+Text GLabel 5400 3100 2    50   BiDi ~ 0
+ARD.D4
+Text GLabel 5400 3200 2    50   BiDi ~ 0
+ARD.D3-PWM_INTI_EXTI0
+Text GLabel 5400 3300 2    50   BiDi ~ 0
+ARD.D2-INT0_EXTI14
+Text GLabel 5400 3400 2    50   Input ~ 0
+ARD.D1-UART4_TX
+Text GLabel 5400 3500 2    50   Input ~ 0
+ARD.D0-UART4_RX
+Wire Wire Line
+	4900 2800 5400 2800
+Wire Wire Line
+	4900 2900 5400 2900
+Wire Wire Line
+	4900 3000 5400 3000
+Wire Wire Line
+	4900 3100 5400 3100
+Wire Wire Line
+	4900 3200 5400 3200
+Wire Wire Line
+	4900 3300 5400 3300
+Wire Wire Line
+	4900 3400 5400 3400
+Wire Wire Line
+	4900 3500 5400 3500
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB4
+U 1 1 5F5475C0
+P 2600 6050
+F 0 "SB4" H 2800 5900 50  0000 R CNN
+F 1 "close" V 2550 5950 50  0000 R CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3050 5800 50  0001 C CNN
+F 3 "" H 2600 5600 50  0001 C CNN
+	1    2600 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB6
+U 1 1 5F5499B7
+P 3050 6050
+F 0 "SB6" H 3250 5900 50  0000 R CNN
+F 1 "Open" V 3000 5950 50  0000 R CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3500 5800 50  0001 C CNN
+F 3 "" H 3050 5600 50  0001 C CNN
+	1    3050 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB7
+U 1 1 5F54A2F1
+P 3400 5900
+F 0 "SB7" H 3600 5750 50  0000 R CNN
+F 1 "Open" V 3350 5800 50  0000 R CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3850 5650 50  0001 C CNN
+F 3 "" H 3400 5450 50  0001 C CNN
+	1    3400 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB8
+U 1 1 5F54A9CA
+P 3800 5900
+F 0 "SB8" H 4000 5750 50  0000 R CNN
+F 1 "Close" V 3750 5800 50  0000 R CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4250 5650 50  0001 C CNN
+F 3 "" H 3800 5450 50  0001 C CNN
+	1    3800 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB10
+U 1 1 5F54B02D
+P 4100 5700
+F 0 "SB10" H 4300 5550 50  0000 R CNN
+F 1 "Open" V 4050 5600 50  0000 R CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4550 5450 50  0001 C CNN
+F 3 "" H 4100 5250 50  0001 C CNN
+	1    4100 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB11
+U 1 1 5F54B7F6
+P 4500 5700
+F 0 "SB11" H 4700 5550 50  0000 R CNN
+F 1 "Close" V 4450 5600 50  0000 R CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4950 5450 50  0001 C CNN
+F 3 "" H 4500 5250 50  0001 C CNN
+	1    4500 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB5
+U 1 1 5F566D42
+P 2600 6900
+F 0 "SB5" H 2650 6750 50  0000 L CNN
+F 1 "Close" V 2550 6600 50  0000 L CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3050 6650 50  0001 C CNN
+F 3 "" H 2600 6450 50  0001 C CNN
+	1    2600 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB9
+U 1 1 5F5672D6
+P 3850 6950
+F 0 "SB9" H 4050 6800 50  0000 R CNN
+F 1 "Open" V 3800 6850 50  0000 R CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4300 6700 50  0001 C CNN
+F 3 "" H 3850 6500 50  0001 C CNN
+	1    3850 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MySymLib:HEADER_2X6_PMOD CN4
+U 1 1 5F59EAD4
+P 5550 6350
+F 0 "CN4" H 5200 6650 50  0000 C CNN
+F 1 "HEADER_2X6_PMOD" H 5250 5950 50  0000 C CNN
+F 2 "MyfootprintLib:MSOP-12_MSE-no" H 5550 6350 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/LTC3863IMSE%23TRPBF/Analog%20Devices/datasheet/" H 5550 6350 50  0001 C CNN
+	1    5550 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5750 4550 6150
+Wire Wire Line
+	4550 6150 5050 6150
+Wire Wire Line
+	3100 6100 3100 6150
+Wire Wire Line
+	3100 6150 4550 6150
+Connection ~ 4550 6150
+Wire Wire Line
+	4150 5750 4150 6250
+Wire Wire Line
+	4150 6250 5050 6250
+Wire Wire Line
+	3850 5950 3850 6250
+Wire Wire Line
+	3850 6250 4150 6250
+Connection ~ 4150 6250
+Wire Wire Line
+	2650 6100 2650 6350
+Wire Wire Line
+	2650 6350 3900 6350
+Wire Wire Line
+	3900 6700 3900 6350
+Connection ~ 3900 6350
+Wire Wire Line
+	3900 6350 5050 6350
+Wire Wire Line
+	2650 6650 2650 6450
+Wire Wire Line
+	2650 6450 3450 6450
+Wire Wire Line
+	3450 5950 3450 6450
+Connection ~ 3450 6450
+Wire Wire Line
+	3450 6450 5050 6450
+Text GLabel 1900 5350 0    50   Output ~ 0
+PMOD-UART2_TX-SPI2_CSN
+Text GLabel 1900 5500 0    50   Output ~ 0
+PMOD-UART2_RTS-SPI2_MOSI
+Text GLabel 1900 5650 0    50   Input ~ 0
+PMOD-UART2_CTS-SPI2_MISO
+Text GLabel 1900 7200 0    50   Output ~ 0
+PMOD-SPI2_SCK
+Text GLabel 1900 7350 0    50   Input ~ 0
+PMOD-UART2_RX
+Wire Wire Line
+	1900 5650 2650 5650
+Wire Wire Line
+	3100 5650 3100 5800
+Wire Wire Line
+	2650 5800 2650 5650
+Connection ~ 2650 5650
+Wire Wire Line
+	2650 5650 3100 5650
+Wire Wire Line
+	1900 5500 3450 5500
+Wire Wire Line
+	3850 5500 3850 5650
+Wire Wire Line
+	3450 5650 3450 5500
+Connection ~ 3450 5500
+Wire Wire Line
+	3450 5500 3850 5500
+Wire Wire Line
+	1900 5350 4150 5350
+Wire Wire Line
+	4550 5350 4550 5450
+Wire Wire Line
+	4150 5450 4150 5350
+Connection ~ 4150 5350
+Wire Wire Line
+	4150 5350 4550 5350
+Wire Wire Line
+	1900 7200 2650 7200
+Wire Wire Line
+	2650 7200 2650 6950
+Wire Wire Line
+	1900 7350 3900 7350
+Wire Wire Line
+	3900 7350 3900 7000
+$Comp
+L MySymLib:3V3 #PWR099
+U 1 1 5F60B225
+P 4700 6550
+F 0 "#PWR099" H 4750 6450 50  0001 C CNN
+F 1 "3V3" V 4605 6578 50  0000 L CNN
+F 2 "" H 4700 6550 50  0001 C CNN
+F 3 "" H 4700 6550 50  0001 C CNN
+	1    4700 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0100
+U 1 1 5F60C55F
+P 4700 6550
+F 0 "#PWR0100" H 4700 6300 50  0001 C CNN
+F 1 "GND" V 4705 6422 50  0000 R CNN
+F 2 "" H 4700 6550 50  0001 C CNN
+F 3 "" H 4700 6550 50  0001 C CNN
+	1    4700 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L MySymLib:3V3 #PWR0102
+U 1 1 5F60D04F
+P 5900 6750
+F 0 "#PWR0102" H 5950 6650 50  0001 C CNN
+F 1 "3V3" V 5805 6778 50  0000 L CNN
+F 2 "" H 5900 6750 50  0001 C CNN
+F 3 "" H 5900 6750 50  0001 C CNN
+	1    5900 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F60D723
+P 5900 6550
+F 0 "#PWR0101" H 5900 6300 50  0001 C CNN
+F 1 "GND" V 5905 6422 50  0000 R CNN
+F 2 "" H 5900 6550 50  0001 C CNN
+F 3 "" H 5900 6550 50  0001 C CNN
+	1    5900 6550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5950 6250 2    50   Input ~ 0
+PMOD-RESET
+Text GLabel 5950 6150 2    50   Input ~ 0
+PMOD-IRQ_EXTI2
+Wire Wire Line
+	5550 6150 5950 6150
+$Comp
+L MySymLib:TC2050-IDC-NL CN6
+U 1 1 5F63CA90
+P 8600 4750
+F 0 "CN6" H 8650 5100 50  0000 C CNN
+F 1 "TC2050-IDC-NL" H 8650 4500 50  0000 C CNN
+F 2 "MyfootprintLib:TAG-CONNECT_TC2050-IDC-NL" H 8600 4750 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/TC2050-IDC-NL/Tag-Connect%20LLC/datasheet/" H 8600 4750 50  0001 C CNN
+	1    8600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5F6434ED
+P 7700 4100
+F 0 "R16" H 7770 4146 50  0000 L CNN
+F 1 "22R" H 7770 4055 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 7630 4100 50  0001 C CNN
+F 3 "~" H 7700 4100 50  0001 C CNN
+	1    7700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5F6439DF
+P 8100 4100
+F 0 "R17" H 8170 4146 50  0000 L CNN
+F 1 "22R" H 8170 4055 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 8030 4100 50  0001 C CNN
+F 3 "~" H 8100 4100 50  0001 C CNN
+	1    8100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5F643D9F
+P 9300 4100
+F 0 "R18" H 9370 4146 50  0000 L CNN
+F 1 "22R" H 9370 4055 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 9230 4100 50  0001 C CNN
+F 3 "~" H 9300 4100 50  0001 C CNN
+	1    9300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5F644147
+P 9700 4100
+F 0 "R19" H 9770 4146 50  0000 L CNN
+F 1 "22R" H 9770 4055 50  0000 L CNN
+F 2 "MyfootprintLib:R_0402_1005Metric" V 9630 4100 50  0001 C CNN
+F 3 "~" H 9700 4100 50  0001 C CNN
+	1    9700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB15
+U 1 1 5F6445B9
+P 7350 3800
+F 0 "SB15" H 7700 3700 50  0000 C CNN
+F 1 "Close" H 7250 3650 50  0000 C CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7800 3550 50  0001 C CNN
+F 3 "" H 7350 3350 50  0001 C CNN
+	1    7350 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB14
+U 1 1 5F6447E3
+P 7350 3650
+F 0 "SB14" H 7700 3550 50  0000 C CNN
+F 1 "Close" H 7200 3550 50  0000 C CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7800 3400 50  0001 C CNN
+F 3 "" H 7350 3200 50  0001 C CNN
+	1    7350 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB12
+U 1 1 5F6453B0
+P 7350 3350
+F 0 "SB12" H 7600 3250 50  0000 L CNN
+F 1 "Close" H 7100 3250 50  0000 L CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7800 3100 50  0001 C CNN
+F 3 "" H 7350 2900 50  0001 C CNN
+	1    7350 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L MySymLib:Solder_Jumper_Rect_Open SB13
+U 1 1 5F645A86
+P 7350 3500
+F 0 "SB13" H 7650 3400 50  0000 C CNN
+F 1 "Close" H 7200 3400 50  0000 C CNN
+F 2 "MyfootprintLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7800 3250 50  0001 C CNN
+F 3 "" H 7350 3050 50  0001 C CNN
+	1    7350 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F6463FB
+P 8150 4900
+F 0 "#PWR0104" H 8150 4650 50  0001 C CNN
+F 1 "GND" V 8155 4772 50  0000 R CNN
+F 2 "" H 8150 4900 50  0001 C CNN
+F 3 "" H 8150 4900 50  0001 C CNN
+	1    8150 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 4900 8350 4900
+Wire Wire Line
+	8450 4700 8350 4700
+Wire Wire Line
+	8350 4700 8350 4900
+Connection ~ 8350 4900
+Wire Wire Line
+	8350 4900 8450 4900
+Wire Wire Line
+	7700 4250 7700 4800
+Wire Wire Line
+	7700 4800 8450 4800
+Wire Wire Line
+	8100 4250 8100 4600
+Wire Wire Line
+	8100 4600 8450 4600
+Wire Wire Line
+	8950 4500 9300 4500
+Wire Wire Line
+	9300 4500 9300 4250
+Wire Wire Line
+	8950 4900 9700 4900
+Wire Wire Line
+	9700 4900 9700 4250
+Text GLabel 10100 3300 2    50   BiDi ~ 0
+SYS_JTMS-SWDIO
+Text GLabel 10100 3450 2    50   Output ~ 0
+SYS_JTCK_SWCLK
+Text GLabel 10100 3600 2    50   Output ~ 0
+SYS_JTDO-SWO
+Text GLabel 10100 3750 2    50   BiDi ~ 0
+STM_NRST
+Wire Wire Line
+	7400 3750 9300 3750
+Wire Wire Line
+	7400 3600 9700 3600
+Wire Wire Line
+	7400 3450 7700 3450
+Wire Wire Line
+	7400 3300 8100 3300
+Wire Wire Line
+	7100 3300 6900 3300
+Wire Wire Line
+	7100 3450 6900 3450
+Wire Wire Line
+	7100 3600 6900 3600
+Wire Wire Line
+	7100 3750 6900 3750
+Text Label 6800 3300 2    50   ~ 0
+T_JTMS
+Text Label 6800 3450 2    50   ~ 0
+T_JTCK
+Text Label 6800 3600 2    50   ~ 0
+T_SWO
+Text Label 6800 3750 2    50   ~ 0
+T_NRST
+Wire Wire Line
+	7700 3950 7700 3450
+Connection ~ 7700 3450
+Wire Wire Line
+	7700 3450 10100 3450
+Wire Wire Line
+	8100 3950 8100 3300
+Connection ~ 8100 3300
+Wire Wire Line
+	8100 3300 10100 3300
+Wire Wire Line
+	9300 3950 9300 3750
+Connection ~ 9300 3750
+Wire Wire Line
+	9300 3750 10100 3750
+Wire Wire Line
+	9700 3950 9700 3600
+Connection ~ 9700 3600
+Wire Wire Line
+	9700 3600 10100 3600
+$Comp
+L MySymLib:Header_10x1_Femeale-5-534237-8 CN5
+U 1 1 5F2FE215
+P 5600 850
+F 0 "CN5" H 6050 800 50  0000 L CNN
+F 1 "Header_10x1_Femeale-5-534237-8" H 5700 -450 50  0000 L CNN
+F 2 "MyfootprintLib:Altech_AK300_1x10_P5.00mm_45-Degree" H 6150 -400 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/5-534237-8/TE%20Connectivity/datasheet/" H 6150 -400 50  0001 C CNN
+	1    5600 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1100 4000 1300
+Connection ~ 4000 1300
+Wire Wire Line
+	4000 1300 4000 1400
+$Comp
+L MySymLib:HEADER_6X1-MTSW-106-07-L-S-105 CN1
+U 1 1 5F42EFD6
+P 2050 3650
+F 0 "CN1" H 2200 4600 50  0000 L CNN
+F 1 "HEADER_6X1-MTSW-106-07-L-S-105" H 1550 3750 50  0000 L CNN
+F 2 "MyfootprintLib:HEADER_6X1_SAMTEC_MTSW-106-07-L-S-105" H 2050 3650 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/MTSW-106-07-L-S-105/Samtec/datasheet/" H 2050 3650 50  0001 C CNN
+	1    2050 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1300 1850 1300
+Wire Wire Line
+	1100 1500 1850 1500
+$Comp
+L power:GND #PWR095
+U 1 1 5F572466
+P 1600 1800
+F 0 "#PWR095" H 1600 1550 50  0001 C CNN
+F 1 "GND" V 1605 1672 50  0000 R CNN
+F 2 "" H 1600 1800 50  0001 C CNN
+F 3 "" H 1600 1800 50  0001 C CNN
+	1    1600 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 1600 1700 1600
+Wire Wire Line
+	1300 1700 1850 1700
+Wire Wire Line
+	1850 1400 1700 1400
+Wire Wire Line
+	1700 1400 1700 1600
+Connection ~ 1700 1600
+Wire Wire Line
+	1700 1600 1850 1600
+$Comp
+L MySymLib:HEADER_8X1-TSM-108-01-S-SV-P-TR-CN2 CN2
+U 1 1 5F5BF09E
+P 2250 1000
+F 0 "CN2" H 2150 1000 50  0000 L CNN
+F 1 "HEADER_8X1-TSM-108-01-S-SV-P-TR-CN2" H 2300 -300 50  0000 L CNN
+F 2 "MyfootprintLib:HEADER_8X1_FEMALE-SAMTEC-TSM-108-01-X-SV" H 2250 1000 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/TSM-108-01-S-SV-P-TR/Samtec/datasheet/" H 2250 1000 50  0001 C CNN
+	1    2250 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:HEADER_8X1-TSM-108-01-S-SV-P-TR-CN3 CN3
+U 1 1 5F5D19CB
+P 3600 2300
+F 0 "CN3" H 3900 2100 50  0000 C CNN
+F 1 "HEADER_8X1-TSM-108-01-S-SV-P-TR-CN3" H 4400 800 50  0000 C CNN
+F 2 "MyfootprintLib:HEADER_8X1_FEMALE-SAMTEC-TSM-108-01-X-SV" H 4400 800 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/TSM-108-01-S-SV-P-TR/Samtec/datasheet/" H 3600 2300 50  0001 C CNN
+	1    3600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1300 1000 1300
+Wire Wire Line
+	5550 6250 5950 6250
+Wire Wire Line
+	1850 1800 1700 1800
+Wire Wire Line
+	1850 1900 1700 1900
+Wire Wire Line
+	1700 1900 1700 1800
+Connection ~ 1700 1800
+Wire Wire Line
+	1700 1800 1600 1800
+Wire Wire Line
+	1550 2000 1850 2000
+$Comp
+L MySymLib:VDDA #PWR097
+U 1 1 5F875AA0
+P 3850 1050
+F 0 "#PWR097" H 4150 1050 50  0001 C CNN
+F 1 "VDDA" H 4005 1173 50  0000 C CNN
+F 2 "" H 3850 1050 50  0001 C CNN
+F 3 "" H 3850 1050 50  0001 C CNN
+	1    3850 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MySymLib:3V3_ST_LINK #PWR0105
+U 1 1 5F8797EE
+P 8500 4200
+F 0 "#PWR0105" H 8700 4200 50  0001 C CNN
+F 1 "3V3_ST_LINK" V 8555 4278 50  0000 L CNN
+F 2 "" H 8500 4200 50  0001 C CNN
+F 3 "" H 8500 4200 50  0001 C CNN
+	1    8500 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L MySymLib:5V_ARD #PWR079
+U 1 1 5F87A69A
+P 900 1450
+F 0 "#PWR079" H 1000 1350 50  0001 C CNN
+F 1 "5V_ARD" V 1055 1527 50  0000 L CNN
+F 2 "" H 900 1450 50  0001 C CNN
+F 3 "" H 900 1450 50  0001 C CNN
+	1    900  1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MySymLib:3V3 #PWR094
+U 1 1 5F87AEA2
+P 1500 1500
+F 0 "#PWR094" H 1550 1400 50  0001 C CNN
+F 1 "3V3" V 1405 1528 50  0000 L CNN
+F 2 "" H 1500 1500 50  0001 C CNN
+F 3 "" H 1500 1500 50  0001 C CNN
+	1    1500 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MySymLib:5V #PWR092
+U 1 1 5F87B793
+P 1250 1850
+F 0 "#PWR092" H 1250 1900 50  0001 C CNN
+F 1 "5V" V 1405 1928 50  0000 L CNN
+F 2 "" H 1250 1850 50  0001 C CNN
+F 3 "" H 1250 1850 50  0001 C CNN
+	1    1250 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MySymLib:VIN #PWR0144
+U 1 1 5F87C2AF
+P 1550 2100
+F 0 "#PWR0144" H 1550 2150 50  0001 C CNN
+F 1 "VIN" V 1655 2227 50  0000 L CNN
+F 2 "" H 1550 2100 50  0001 C CNN
+F 3 "" H 1550 2100 50  0001 C CNN
+	1    1550 2100
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1150 1500 2    50   BiDi ~ 0
+STM_NRST
+Text HLabel 1500 2850 2    50   Input ~ 0
+ARD.A0-ADC
+Text HLabel 1500 2950 2    50   Input ~ 0
+ARD.A1-ADC
+Text HLabel 1500 3050 2    50   Input ~ 0
+ARD.A2-ADC
+Text HLabel 1500 3150 2    50   Input ~ 0
+ARD.A3-ADC
+Text HLabel 1500 3250 2    50   Input ~ 0
+ARD.A4-ADC
+Text HLabel 1500 3350 2    50   Input ~ 0
+ARD.A5-ADC
+Text HLabel 4900 2800 2    50   BiDi ~ 0
+ARD.D7
+Text HLabel 4900 2900 2    50   BiDi ~ 0
+ARD.D6-PWM
+Text HLabel 4900 3000 2    50   BiDi ~ 0
+ARD.D5-PWM
+Text HLabel 4900 3100 2    50   BiDi ~ 0
+ARD.D4
+Text HLabel 4900 3200 2    50   BiDi ~ 0
+ARD.D3-PWM_INTI_EXTI0
+Text HLabel 4900 3300 2    50   BiDi ~ 0
+ARD.D2-INT0_EXTI14
+Text HLabel 4900 3400 2    50   Input ~ 0
+ARD.D1-UART4_TX
+Text HLabel 4900 3500 2    50   Input ~ 0
+ARD.D0-UART4_RX
+Text HLabel 9350 3300 2    50   BiDi ~ 0
+SYS_JTMS-SWDIO
+Text HLabel 9350 3450 2    50   BiDi ~ 0
+SYS_JTCK_SWCLK
+Text HLabel 9400 3600 2    50   Output ~ 0
+SYS_JTDO-SWO
+Text HLabel 9400 3750 2    50   BiDi ~ 0
+STM_NRST
+Text HLabel 5500 1100 2    50   Input ~ 0
+ARD.D15-I2C1_SCL
+Text HLabel 5500 1200 2    50   BiDi ~ 0
+ARD.D14-I2CI_SDA
+Text HLabel 5450 1500 2    50   Input ~ 0
+ARD.D13-SPI1_SCK-LED1
+Text HLabel 5450 1600 2    50   Output ~ 0
+ARD.D12-SPI1_MISO
+Text HLabel 5450 1700 2    50   Input ~ 0
+ARD.D11-SPI1_MOSI_PWM
+Text HLabel 5450 1800 2    50   Input ~ 0
+ARD.D10-SPI_SSN_PWM
+Text HLabel 5450 1900 2    50   BiDi ~ 0
+ARD.D9-PWM
+Text HLabel 5450 2000 2    50   BiDi ~ 0
+ARD.D8
+Text HLabel 1950 5350 2    50   Output Italic 0
+PMOD-UART2_TX-SPI2_CSN
+Text HLabel 1950 5500 2    50   Output ~ 0
+PMOD-UART2_RTS-SPI2_MOSI
+Text HLabel 1950 5650 2    50   Input ~ 0
+PMOD-UART2_CTS-SPI2_MISO
+Text HLabel 1950 7200 2    50   Output ~ 0
+PMOD-SPI2_SCK
+Text HLabel 1950 7350 2    50   Input ~ 0
+PMOD-UART2_RX
+Text HLabel 5600 6150 2    50   Input ~ 0
+PMOD-IRQ_EXTI2
+Text HLabel 5600 6250 2    50   Input ~ 0
+PMOD-RESET
+Text GLabel 1000 1150 1    50   Input ~ 0
+5V_ARD
+Wire Wire Line
+	1000 1150 1000 1300
+Connection ~ 1000 1300
+Wire Wire Line
+	1000 1300 1150 1300
+Text GLabel 1650 2000 3    50   Input ~ 0
+VIN
+Text GLabel 1500 1700 0    50   Input ~ 0
+5V
+Text GLabel 1750 1600 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	5550 6650 5800 6650
+Wire Wire Line
+	4800 6650 5050 6650
+Text GLabel 4850 6650 3    50   Input ~ 0
+3V3
+Text GLabel 5700 6650 3    50   Input ~ 0
+3V3
+Text GLabel 1650 1800 3    50   Input ~ 0
+GND
+Text GLabel 4000 1200 0    50   Input ~ 0
+VDDA
+Wire Wire Line
+	4000 1850 4000 1700
+Text GLabel 4000 1800 2    50   Input ~ 0
+GND
+Text GLabel 5850 1400 1    50   Input ~ 0
+GND
+Wire Wire Line
+	5550 6550 5900 6550
+Wire Wire Line
+	4700 6550 5050 6550
+Text GLabel 4950 6550 3    50   Input ~ 0
+GND
+Text GLabel 5800 6550 3    50   Input ~ 0
+GND
+Text GLabel 8200 4900 3    50   Input ~ 0
+GND
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FF34CF6
+P 6900 3300
+F 0 "#FLG0101" H 6900 3375 50  0001 C CNN
+F 1 "PWR_FLAG" H 6900 3473 50  0000 C CNN
+F 2 "" H 6900 3300 50  0001 C CNN
+F 3 "~" H 6900 3300 50  0001 C CNN
+	1    6900 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 3300
+Wire Wire Line
+	6900 3300 6800 3300
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FF35251
+P 6900 3450
+F 0 "#FLG0102" H 6900 3525 50  0001 C CNN
+F 1 "PWR_FLAG" H 6900 3623 50  0000 C CNN
+F 2 "" H 6900 3450 50  0001 C CNN
+F 3 "~" H 6900 3450 50  0001 C CNN
+	1    6900 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 3450
+Wire Wire Line
+	6900 3450 6800 3450
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5FF3565E
+P 6900 3600
+F 0 "#FLG0103" H 6900 3675 50  0001 C CNN
+F 1 "PWR_FLAG" H 6900 3773 50  0000 C CNN
+F 2 "" H 6900 3600 50  0001 C CNN
+F 3 "~" H 6900 3600 50  0001 C CNN
+	1    6900 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 3600
+Wire Wire Line
+	6900 3600 6800 3600
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5FF35C6E
+P 6900 3750
+F 0 "#FLG0104" H 6900 3825 50  0001 C CNN
+F 1 "PWR_FLAG" H 6900 3923 50  0000 C CNN
+F 2 "" H 6900 3750 50  0001 C CNN
+F 3 "~" H 6900 3750 50  0001 C CNN
+	1    6900 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 3750
+Wire Wire Line
+	6900 3750 6800 3750
+Wire Wire Line
+	8450 4250 8450 4500
+$EndSCHEMATC

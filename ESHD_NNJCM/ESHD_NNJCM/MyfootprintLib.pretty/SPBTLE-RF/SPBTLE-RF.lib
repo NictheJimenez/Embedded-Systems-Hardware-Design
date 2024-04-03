@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SPBTLE-RF
+#
+DEF SPBTLE-RF U 0 40 Y Y 1 L N
+F0 "U" -601 531 50 H V L BNN
+F1 "SPBTLE-RF" -601 -571 50 H V L BNN
+F2 "XCVR_SPBTLE-RF" 0 0 50 H I L BNN
+F3 "ST Microelectronics" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -600 500 -600 -500 N
+P 2 0 0 10 -600 -500 600 -500 N
+P 2 0 0 10 600 -500 600 500 N
+P 2 0 0 10 600 500 -600 500 N
+X SPI_IRQ 4 800 200 200 L 40 40 0 0 O 
+X SPI_CLK 7 -800 400 200 R 40 40 0 0 I 
+X SPI_MISO 8 800 100 200 L 40 40 0 0 O 
+X SPI_MOSI 9 -800 300 200 R 40 40 0 0 I 
+X SPI_CS 10 -800 200 200 R 40 40 0 0 I 
+X VIN 5 800 400 200 L 40 40 0 0 W 
+X GND 6 800 -400 200 L 40 40 0 0 W 
+X BT_RESET 11 -800 -100 200 R 40 40 0 0 I 
+X EXT_LPCLK 1 -800 -200 200 R 40 40 0 0 I 
+X GPIO2 2 -800 -400 200 R 40 40 0 0 B 
+X ANATEST0 3 -800 0 200 R 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library

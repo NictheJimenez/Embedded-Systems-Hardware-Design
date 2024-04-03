@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MySymLib1)(type Legacy)(uri ${KIPRJMOD}/MySymLib/MySymLib1.lib)(options "")(descr ""))
+  (lib (name Project_NNJCM_FRAM_Module-rescue)(type Legacy)(uri ${KIPRJMOD}/Project_NNJCM_FRAM_Module-rescue.lib)(options "")(descr ""))
+)

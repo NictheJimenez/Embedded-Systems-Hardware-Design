@@ -1,0 +1,8 @@
+Info: Checking netlist symbol footprint "10K1:/5F259EFF:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal".
+Info: Checking netlist symbol footprint "C1:/5F3073FB:Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal".
+Info: Checking netlist symbol footprint "JPI1:/5FB33DD5:Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical".
+Info: Checking netlist symbol footprint "V1:/5FB354FA:Module:SOIC127P600X175-8N".
+Adding new symbol 10K1 footprint Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.
+Adding new symbol C1 footprint Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal.
+Adding new symbol JPI1 footprint Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical.
+Adding new symbol V1 footprint Module:SOIC127P600X175-8N.
